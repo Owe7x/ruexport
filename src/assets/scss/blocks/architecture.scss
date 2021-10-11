@@ -1,0 +1,47 @@
+.architecture {
+    max-width: 1420px;
+    margin: 0 auto 160px;
+    @include breakpoint($bp-1024) {
+        margin: 0 auto 80px;
+    }   
+}
+.architecture__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #002E5E;
+    margin-bottom: 40px;
+    max-width: 663px;
+}
+.architecture__img {
+    max-width: 100%;
+    @include breakpoint($bp-1024) {
+        display: none;
+    }  
+}
+.architecture__mobile {
+    display: none;
+    @include breakpoint($bp-1024) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+.architecture__img-mobile {
+    max-width: 100%;
+    width: 100%;
+}
+.architecture__img-mobile-main {
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.mobile-group {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 30px;
+}

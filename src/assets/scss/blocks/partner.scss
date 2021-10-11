@@ -1,0 +1,33 @@
+.partner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.partner__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #002E5E;
+    margin-bottom: 42px;
+}
+.partner__img {
+    max-width: 100%;
+    margin-bottom: 68px;
+}
+.partner__img-one {
+    max-width: 100%;
+}
+.partner__subtitle {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 140%;
+    color: #002E5E;
+    margin-bottom: 28px;
+}
+.partner__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 32px;
+    margin-bottom: 68px;
+}

@@ -1,0 +1,48 @@
+@import "vars";
+@import "mixins";
+@import "vendor/reset";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Circe';
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.background {
+    background-image: url(../images/all__bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 157px 40px 81px;
+    @include breakpoint($bp-1440) {
+        background-size: cover
+    }
+    @include breakpoint($bp-1024) {
+        padding: 70px 40px 51px;
+    }   
+}
+
+
+/* Blocks */
+@import "blocks/header.scss";
+@import "blocks/switch.scss";
+@import "blocks/stylesheet.scss";
+@import "blocks/main.scss";
+@import "blocks/btn.scss";
+@import "blocks/description.scss";
+@import "blocks/video.scss";
+@import "blocks/architecture.scss";
+@import "blocks/partner.scss";
+@import "blocks/footer.scss";

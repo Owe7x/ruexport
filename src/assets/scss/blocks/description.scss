@@ -1,0 +1,30 @@
+.description {
+    background-image: url(../images/description__bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.description__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px 0 118px;
+    @include breakpoint($bp-1024) {
+        padding: 50px 0 50px;
+    }  
+}
+.description__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.description__text {
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    max-width: 580px;
+    margin-bottom: 32px;
+}
