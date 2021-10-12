@@ -1,6 +1,6 @@
 .architecture {
     max-width: 1420px;
-    margin: 0 auto 160px;
+    margin: 0 auto 220px;
     @include breakpoint($bp-1024) {
         margin: 0 auto 80px;
     }   
@@ -31,7 +31,6 @@
 }
 .architecture__img-mobile {
     max-width: 100%;
-    width: 100%;
 }
 .architecture__img-mobile-main {
     max-width: 700px;
@@ -44,4 +43,19 @@
     max-width: 700px;
     width: 100%;
     margin-bottom: 30px;
+    @include breakpoint($bp-768) {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }  
+}
+.architecture__img-mobile-last {
+    max-width: 700px;
+    width: 100%;
+    @include breakpoint($bp-520) {
+        display: none;
+    }  
+}
+.architecture__img-last-mobile {
+    max-width: 100%;
 }

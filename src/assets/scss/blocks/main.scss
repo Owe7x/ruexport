@@ -9,12 +9,27 @@
     @include breakpoint($bp-768) {
         padding: 0 40px 100px;
         background-size: cover;
+        background-position: 0%;
     }  
 }
 .main__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 136px 0 119px;
+    padding: 136px 0 105px;
+    @include breakpoint($bp-768) {
+        padding: 50px 0 119px;
+    }  
+}
+.main__text-mobile {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #F41921;
+    margin: 20px 0 16px;
+    display: none;
+    @include breakpoint($bp-768) {
+        display: block;
+    } 
 }
 .main__title {
     font-size: 36px;
@@ -40,13 +55,25 @@
 .main__blocks {
     display: flex;
     align-items: center;
+    @include breakpoint($bp-768) {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
 }
 .main__block  {
     max-width: 300px;
     margin-right: 28px;
+    @include breakpoint($bp-768) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
 }
 .main__block:last-child {
     margin-left: 28px;
+    @include breakpoint($bp-768) {
+        margin-left: 0;
+        margin-top: 16px;
+    }
 }
 .main__block-title {
     font-weight: bold;
@@ -74,6 +101,10 @@
     width: 1px;
     height: 63px;
     background-color: #000000;
+    @include breakpoint($bp-768) {
+        width: 310px;
+        height: 1px;
+    }
 }
 .main__info {
     max-width: 736px;
@@ -121,4 +152,15 @@
     line-height: 25px;
     color: #8C8C8C;
     text-decoration: none;
+}
+.main__logo-mobile {
+    max-width: 220px;
+    width: 100%;
+    display: none;
+    @include breakpoint($bp-768) {
+        display: block;
+    } 
+}
+.main__text-bold {
+    font-weight: bold;
 }

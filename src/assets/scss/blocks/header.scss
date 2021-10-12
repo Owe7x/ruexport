@@ -28,3 +28,8 @@
 .header__chekbox-language_opaciy {
     opacity: 0.5;
 }
+.header__img-mobile {
+    @include breakpoint($bp-768) {
+        display: none;
+    } 
+}

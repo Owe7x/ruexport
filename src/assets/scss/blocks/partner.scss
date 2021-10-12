@@ -16,6 +16,9 @@
 }
 .partner__img-one {
     max-width: 100%;
+    @include breakpoint($bp-520) {
+        max-width: 200px;
+    } 
 }
 .partner__subtitle {
     font-weight: bold;
@@ -29,5 +32,7 @@
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 32px;
-    margin-bottom: 68px;
+    @include breakpoint($bp-520) {
+        justify-content: space-between;
+    }
 }

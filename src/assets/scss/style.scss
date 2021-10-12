@@ -25,13 +25,16 @@ body {
     background-position: center;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 157px 40px 81px;
+    padding: 180px 40px 220px;
     @include breakpoint($bp-1440) {
         background-size: cover
     }
     @include breakpoint($bp-1024) {
         padding: 70px 40px 51px;
     }   
+    @include breakpoint($bp-768) {
+        padding: 70px 20px 51px;
+    }
 }
 
 
