@@ -6,18 +6,22 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
-    text-transform: uppercase;
     color: #002E5E;
     margin-bottom: 42px;
+    @include breakpoint($bp-520) {
+        font-size: 28px;
+        line-height: 140%;
+    } 
 }
 .partner__img {
     max-width: 100%;
     margin-bottom: 68px;
 }
 .partner__img-one {
-    max-width: 100%;
+    max-width: 208px;
+    height: auto;
     @include breakpoint($bp-520) {
-        max-width: 200px;
+        max-width: 158px;
     } 
 }
 .partner__subtitle {
@@ -30,9 +34,17 @@
 .partner__blocks {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 19px;
     row-gap: 32px;
-    @include breakpoint($bp-520) {
+    margin-bottom: 85px;
+    @include breakpoint($bp-768) {
         justify-content: space-between;
     }
+    @include breakpoint($bp-425) {
+        justify-content: center;
+        column-gap: 10px;
+    }
+}
+.partner__blocks:last-child {
+    margin-bottom: 0;
 }

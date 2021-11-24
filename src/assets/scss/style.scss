@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     color: $white;
+    overflow-x: hidden;
 }
 
 *,
@@ -19,16 +21,44 @@ body {
 *:after {
     box-sizing: border-box;
 }
-.background {
-    background-image: url(../images/all__bg.png);
+.bg-first {
+    background-image: url(../images/first_bg.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 180px 40px 220px;
-    @include breakpoint($bp-1440) {
-        background-size: cover
+    background-size: cover;
+    padding: 180px 40px 80px;
+    @include breakpoint($bp-1600) {
+        padding: 180px 162px 80px;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 180px 80px 80px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 70px 40px 51px;
+    }   
+    @include breakpoint($bp-768) {
+        padding: 70px 20px 51px;
     }
+    @include breakpoint($bp-520) {
+        padding: 60px 20px 100px;
+     }
+}
+.bg-second {
+    padding: 100px 40px 217px;
+    background-image: url(../images/bg_second.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-size: cover;
+    @include breakpoint($bp-1600) {
+        padding: 145px 0 140px;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 120px 0 120px;
+    } 
     @include breakpoint($bp-1024) {
         padding: 70px 40px 51px;
     }   
@@ -36,9 +66,33 @@ body {
         padding: 70px 20px 51px;
     }
 }
+.bg-third {
+    padding: 145px 40px 140px;
+    background-image: url(../images/third_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-size: cover;
+    @include breakpoint($bp-1600) {
+        padding: 140px 162px 140px;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 120px 80px 120px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 60px 40px 60px;
+    }   
+    @include breakpoint($bp-768) {
+        padding: 50px 20px 50px;
+    }
+}
+
 
 
 /* Blocks */
+@import "blocks/slick.scss";
+@import "blocks/slick-theme.scss";
 @import "blocks/header.scss";
 @import "blocks/switch.scss";
 @import "blocks/stylesheet.scss";
@@ -49,3 +103,5 @@ body {
 @import "blocks/architecture.scss";
 @import "blocks/partner.scss";
 @import "blocks/footer.scss";
+@import "blocks/map.scss";
+@import "blocks/gallery.scss";

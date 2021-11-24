@@ -5,14 +5,39 @@
     max-width: 1920px;
     padding: 0 40px;
     margin: 0 auto;
+    @include breakpoint($bp-1600) {
+        padding: 0 162px;
+        background-image: url(../images/description__mobile-1600.png);
+        background-size: cover;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 0 80px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 0 40px;
+        background-position: left;
+    } 
+    @include breakpoint($bp-768) {
+        background-size: cover;
+    }  
+    @include breakpoint($bp-520) {
+        background-image: url(../images/description__mobie-bg.svg);
+        padding: 0 20px;
+    }
 }
 .description__container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 80px 0 100px;
+    @include breakpoint($bp-1600) {
+        padding: 60px 0 60px;
+    } 
     @include breakpoint($bp-1024) {
         padding: 50px 0 50px;
     }  
+    @include breakpoint($bp-520) {
+        padding: 88px 0 60px;
+    }
 }
 .description__title {
     font-weight: bold;
@@ -20,31 +45,60 @@
     line-height: 140%;
     text-transform: uppercase;
     margin-bottom: 34px;
+    @include breakpoint($bp-1600) {
+        max-width: 300px;
+    } 
+    @include breakpoint($bp-520) {
+        margin-bottom: 20px;
+    }
 }
 .description__text {
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
-    max-width: 821px;
+    max-width: 447px;
     margin-bottom: 10px;
+    @include breakpoint($bp-1600) {
+        max-width: 546px;
+    } 
+    @include breakpoint($bp-520) {
+        margin-bottom: 17px;
+    }
 }
 .description__text-bold {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 10px;
+    @include breakpoint($bp-1600) {
+        max-width: 546px;
+    } 
+    @include breakpoint($bp-520) {
+        margin-bottom: 17px;
+    }
 }
 .description__list {
     margin-left: 30px;
     margin-bottom: 30px;
+    max-width: 447px;
     li {
         font-weight: bold;
         font-size: 16px;
         list-style: disc;
         line-height: 120%;
+        margin-bottom: 17px;
+    }
+    @include breakpoint($bp-1600) {
+        max-width: 546px;
+    } 
+    @include breakpoint($bp-520) {
+        display: none;
     }
 }
 .description__group {
     display: flex;
+    @include breakpoint($bp-520) {
+        flex-direction: column;
+    }
 }
 .description__text-group {
     font-weight: bold;
@@ -52,4 +106,24 @@
     line-height: 120%;
     max-width: 380px;
     margin-right: 11px;
+    @include breakpoint($bp-768) {
+        max-width: 250px;
+    }
+    @include breakpoint($bp-520) {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+}
+.description__list-mobile {
+    display: none;
+    @include breakpoint($bp-520) {
+        display: block;
+        margin-bottom: 32px;
+    }
+}
+.description__item-mobile {
+    margin-bottom: 8px;
+}
+.description__list_eng {
+    display: block;
 }

@@ -2,23 +2,53 @@
     background-image: url(../images/main__bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     max-width: 1920px;
     padding: 0 40px;
     margin: 0 auto;
     position: relative;
+    @include breakpoint($bp-1600) {
+        padding: 0 162px;
+        background-image: url(../images/main__bg-1600.png);
+        background-size: cover;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 0 80px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 0 40px;
+    } 
     @include breakpoint($bp-768) {
-        padding: 0 40px 100px;
+        padding: 0 40px 0px;
         background-size: cover;
         background-position: 0%;
     }  
+    @include breakpoint($bp-520) {
+        padding: 0 20px 0px;
+        background-image: url(../images/main__mobile-bg.svg);
+    }
+    &_eng {
+        background-image: url(../images/main__bg_eng.png);
+        background-size: cover;
+    }
 }
 .main__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 136px 0 105px;
+    padding: 80px 0 65px;
+    @include breakpoint($bp-1600) {
+        padding: 80px 0 80px;
+    } 
     @include breakpoint($bp-768) {
-        padding: 50px 0 119px;
+        padding: 50px 0 50px;
     }  
+    @include breakpoint($bp-520) {
+        padding: 16px 0 40px;
+    }
+    &_eng {
+        padding: 62px 0 50px;
+        display: flex;
+    }
 }
 .main__text-mobile {
     font-weight: bold;
@@ -29,7 +59,22 @@
     display: none;
     @include breakpoint($bp-768) {
         display: block;
+        position: relative;
+        &::after {
+            display: block;
+            content: '';
+            background-image: url(../images/main__text-mobile-after.svg);
+            width: 56px;
+            height: 8px;
+            position: absolute;
+            top: 50%;
+            right: 0px;
+            transform: translateY(-8px);
+        }
     } 
+    @include breakpoint($bp-520) {
+        margin: 0px 0 16px;
+    }
 }
 .main__title {
     font-size: 36px;
@@ -37,6 +82,11 @@
     text-transform: uppercase;
     color: #000000;
     max-width: 580px;
+    @include breakpoint($bp-520) {
+        font-size: 28px;
+        line-height: 140%;
+        max-width: 335px;
+    }
 }
 .main__subtitle {
     font-weight: bold;
@@ -44,14 +94,24 @@
     line-height: 53px;
     color: #002E5E;
     margin-bottom: 20px;
+    @include breakpoint($bp-520) {
+        font-size: 28px;
+        line-height: 41px;
+    }
 }
 .main__text {
     max-width: 580px;
     font-size: 16px;
     line-height: 140%;
     color: #000000;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
+
+    @include breakpoint($bp-520) {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
 }
+
 .main__blocks {
     display: flex;
     align-items: center;
@@ -59,6 +119,9 @@
         flex-direction: column;
         align-items: flex-start;
     }  
+    &_eng {
+        align-items: unset;
+    }
 }
 .main__block  {
     max-width: 300px;
@@ -160,7 +223,44 @@
     @include breakpoint($bp-768) {
         display: block;
     } 
+    @include breakpoint($bp-520) {
+        max-width: 156px;
+        margin-bottom: 20px;
+    }
 }
 .main__text-bold {
     font-weight: bold;
+}
+.main__container-text {
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    @include breakpoint($bp-1600) {
+        margin-left: 2%;
+        margin-top: 140px;
+    }
+    @include breakpoint($bp-1440) {
+        position: absolute;
+        left: 53%;
+    }
+    @include breakpoint($bp-1024) {
+        left: 55%;
+    }
+    @include breakpoint($bp-768) {
+        display: none;
+    }
+}
+.main__container-year {
+    color: #F41921;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main__container-date {
+    font-size: 26px;
+    line-height: 100%;
+    color: #002E5E;
+    font-weight: bold;
+}
+.main__container-month {
+    color: #002E5E;
 }

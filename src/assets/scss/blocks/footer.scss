@@ -1,27 +1,42 @@
 .footer {
     background: #002E5E;
-    padding: 0 40px;
-    @include breakpoint($bp-768) {
-        padding: 0 20px;
+    padding: 0 40px 26px;
+    @include breakpoint($bp-1600) {
+        padding: 0 162px 40px;
     }
+    @include breakpoint($bp-1360) {
+        padding: 0 82px 40px;
+    }
+    @include breakpoint($bp-1024) {
+        padding: 0 40px 40px;
+    }
+    @include breakpoint($bp-768) {
+        padding: 0 20px 40px;
+    }
+    @include breakpoint($bp-520) {
+        padding: 0 20px 32px;
+    }  
 }
 .footer__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 96px 0 26px;
+    padding: 96px 0 0px;
     display: flex;
     justify-content: space-between;
-}
-.footer__img {
-    max-width: 100%;
-    margin-right: 98px;
-    height: 60px;
-    @include breakpoint($bp-768) {
-        margin-right: 20px;
+    @include breakpoint($bp-1024) {
+        flex-direction: column;
+        padding: 40px 0 0px;
     }
     @include breakpoint($bp-520) {
+        padding: 40px 0 0px;
+    }  
+}
+.footer__img {
+    max-width: 260px;
+    margin-right: 20px;
+    height: 50px;
+    @include breakpoint($bp-1024) {
         margin-bottom: 30px;
-        max-width: 230px;
     }
 }
 .footer__content-top {
@@ -43,16 +58,22 @@
 .footer__content-middle {
     display: flex;
     flex-direction: column;
-    @include breakpoint($bp-520) {
-        flex-direction: column;
+    margin-right: 20px;
+    @include breakpoint($bp-1024) {
+        margin-bottom: 30px;
     }
 }
 .footer__content-block {
     display: flex;
+    
+    @include breakpoint($bp-1600) {
+        flex-direction: column;
+    }  
 }
 .footer__content-info {
     margin-right: 60px;
-    @include breakpoint($bp-520) {
+    font-size: 16px;
+    @include breakpoint($bp-1600) {
         margin-bottom: 20px;
     }
 }
@@ -70,11 +91,27 @@
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 1440px;
+    @include breakpoint($bp-520) {
+        font-size: 12px;
+        text-align: center;
+     }
 }
 .footer__info_bottom {
     margin-bottom: 16px;
     text-align: right;
+    font-size: 16px;
+    @include breakpoint($bp-1024) {
+        text-align: left;
+    }
 }
 .footer__content-bottom {
     margin-bottom: 34px;
+    @include breakpoint($bp-768) {
+        display: none;
+    }
+}
+.footer__qr {
+    max-width: 160px;
 }

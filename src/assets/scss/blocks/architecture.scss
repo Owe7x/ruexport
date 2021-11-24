@@ -1,9 +1,7 @@
 .architecture {
     max-width: 1420px;
-    margin: 0 auto 220px;
-    @include breakpoint($bp-1024) {
-        margin: 0 auto 80px;
-    }   
+    margin: 0 auto 0px;
+
 }
 .architecture__title {
     font-weight: bold;
@@ -11,26 +9,46 @@
     line-height: 140%;
     text-transform: uppercase;
     color: #002E5E;
-    margin-bottom: 40px;
+    margin-bottom: 63px;
     max-width: 663px;
+    @include breakpoint($bp-520) {
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: 20px;
+        text-transform: unset;
+    }
 }
 .architecture__img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
     @include breakpoint($bp-1024) {
         display: none;
     }  
 }
 .architecture__mobile {
     display: none;
-    @include breakpoint($bp-1024) {
+    @include breakpoint($bp-1200) {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 28px;
     }  
+    @include breakpoint($bp-520) {
+        display: none;
+    }
 }
 .architecture__img-mobile {
-    max-width: 100%;
+    max-width: 340px;
+    width: 100%;
+    height: 100%;
+    @include breakpoint($bp-520) {
+        max-width: 335px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto; 
+    }
 }
 .architecture__img-mobile-main {
     max-width: 700px;
@@ -40,12 +58,15 @@
 .mobile-group {
     display: flex;
     justify-content: space-between;
-    max-width: 700px;
+    max-width: 547px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-top: 30px;
     @include breakpoint($bp-768) {
-        flex-wrap: wrap;
+        flex-wrap: wrap;  
+    }  
+    @include breakpoint($bp-640) {
         justify-content: center;
+        column-gap: 20px;
         row-gap: 30px;
     }  
 }
@@ -58,4 +79,225 @@
 }
 .architecture__img-last-mobile {
     max-width: 100%;
+    margin-bottom: 30px;
+    @include breakpoint($bp-520) {
+        display: none;
+    }
+}
+.architecture__mobile-375 {
+    display: none;
+    @include breakpoint($bp-520) {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+.architecture__descktop {
+    max-width: 1116px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+    @include breakpoint($bp-1200) {
+        display: none;
+    }
+}
+.architecture__mobile-slider {
+    display: none;
+    @include breakpoint($bp-520) {
+        display: block;
+    }
+}
+.architecture__mobile-slider-img {
+    display: none;
+    @include breakpoint($bp-520) {
+        display: block;
+        max-width: 335px;
+        margin-bottom: 28px;
+    }
+}
+
+.architecture__block {
+    background: #EDEDED;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    max-width: 261px;
+    overflow: hidden;
+    @include breakpoint($bp-520) {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+}
+.architecture__h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding: 12px 0 8px 21px;
+    background: #0054A5;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    @include breakpoint($bp-520) {
+        font-size: 18px;
+        padding: 12px 0 8px 12px;
+    }
+}
+.architecture__main {
+    padding: 12px 9px 9px 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.architecture__subblock {
+    padding: 12px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.architecture__subblock:last-child {
+    margin-bottom: 0px;
+}
+.architecture__text{
+    font-size: 16px;
+    line-height: 140%;
+}
+.architecture__text_red {
+    color: #EC1C24;
+}
+.architecture__text_blue {
+    color: #002E5E;
+}
+.architecture__text_black {
+    color: #333333;
+}
+.architecture__block-main {
+    max-width: 547px;
+    background: #EDEDED;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 20px;
+    @include breakpoint($bp-520) {
+        max-width: 335px;
+        margin: 0 auto;
+    } 
+}
+.architecture__solo-main {
+    max-width: 50%;
+    margin-right: 8px;
+}
+.architecture__solo-main:last-child {
+    margin-right: 0px;
+}
+.minheight-90 {
+    min-height: 90px;
+}
+.minheight-201 {
+    min-height: 201px;
+}
+
+.architecture__main-main {
+    padding: 12px 9px 12px 9px;
+    display: flex;
+    justify-content: space-between;
+    @include breakpoint($bp-520) {
+        justify-content: unset;
+        flex-direction: column;
+    } 
+}
+.architecture__text_green {
+    color: #00850D;
+}
+.minheight-168 {
+    min-height: 189px;
+    @include breakpoint($bp-520) {
+        min-height: unset;
+    }
+}
+.maxheight-843 {
+    max-height: 845px;
+    @include breakpoint($bp-1440) {
+        max-height: unset;
+    } 
+}
+.maxheight-685 {
+    max-height: 675px;
+    @include breakpoint($bp-1440) {
+        max-height: unset;
+    } 
+}
+
+.architecture__dots {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1116px;
+    justify-content: space-between;
+    margin: 25px  auto 0;
+    @include breakpoint($bp-520) {
+        margin: 25px  auto 30px;
+    } 
+}
+.architecture__dots-item {
+    display: flex;
+    margin-right: 11px;
+    @include breakpoint($bp-1024) {
+        margin-right: 13px;
+        margin-bottom: 10px;
+    } 
+}
+.architecture__dots-dots {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+.architecture__dots-text {
+    font-size: 16px;
+    line-height: 140%;
+}
+.dots-red {
+    background: #EC1C24;
+}
+.text-red {
+    color: #EC1C24;
+}
+.dots-grey {
+    background: #333333;
+}
+.text-grey {
+    color: #333333;
+}
+.dots-blue {
+    background: #002E5E;
+}
+.text-blue {
+    color: #002E5E;
+}
+.dots-green {
+    background: #258A2F;
+}
+.text-green {
+    color: #258A2F;
+}
+.minheight-112 {
+    min-height: 112px;
+}
+.minheight-220 {
+    min-height: 220px;
+}
+.minheight-114 {
+    padding: 0px 9px 9px 9px;
+    min-height: 114px;
+}
+.minheight-101 {
+    min-height: 101px;
+}
+.padding {
+    padding: 0px 9px 9px 9px;
+}
+.maxheight-730 {
+    max-height: 600px;
+}
+.minheight-260 {
+    min-height: 260px;
 }

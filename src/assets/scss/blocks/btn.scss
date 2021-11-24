@@ -7,15 +7,24 @@
     width: 100%;
     border: none;
     outline: none;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 29px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
     position: relative;
-    margin-bottom: 60px;
-    font-family: 'Circe';
+    margin-top: 28px;
+    margin-bottom: 48px;
+    @include breakpoint($bp-520) {
+        max-width: 335px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+    a {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: 'Circe';
+        text-decoration: none;
+    }
 }
 .btn::after {
     display: block;
@@ -26,6 +35,9 @@
     position: absolute;
     top: 34px;
     right: -124px;
+    @include breakpoint($bp-520) {
+       display: none;
+    }
 }
 .btn__description {
     width: 180px;
@@ -39,4 +51,40 @@
     border: none;
     outline: none;
     font-family: 'Circe';
+    a {
+        text-decoration: 0;
+        font-size: 16px;
+        color: #8C8C8C;
+        line-height: 24px;
+    }
+    &:hover {
+        opacity: 0.8;
+    }
+    @include breakpoint($bp-520) {
+        position: relative;
+       &::after {
+        display: block;
+        content: '';
+        background-image: url(../images/btn__after-2.svg);
+        width: 56px;
+        height: 8px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-8px);
+        right: -155px;
+       }
+    }
+    &_eng {
+        height: 45px;
+        font-size: unset;
+        line-height: unset;
+    }
+
+}
+#embeddedApp {
+    color: #000!important;
+}
+.click-architecture_eng {
+    font-size: 14px!important;
+    line-height: 120%!important;
 }
