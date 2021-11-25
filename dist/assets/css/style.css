@@ -2276,6 +2276,7 @@ body {
 }
 
 .partner__title {
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 36px;
     line-height: 140%;
@@ -2583,12 +2584,22 @@ body {
     display: flex;
 }
 
+.map__russian {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
 .map-region {
     cursor: pointer;
 }
 
-.map-region:hover {
-    fill: #0054A5;
+.map-color-active {
+    fill: #1B75BB;
 }
 
 .map-active {
@@ -2598,6 +2609,58 @@ body {
 
 .d-none {
     display: none;
+}
+
+.elements__info {
+    width: 261px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+    -webkit-filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+}
+
+.elements__title {
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.elements__subtitle {
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.elements__subtitle-key {
+    font-size: 16px;
+    line-height: 120%;
+    color: #1B75BB;
+    margin-bottom: 4px;
+}
+
+.elements__subtitle-arrays {
+    font-size: 12px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.elements__subtitle-key-2 {
+    font-size: 16px;
+    line-height: 120%;
+    color: #1B75BB;
+    margin-bottom: 4px;
+}
+
+.elements__subtitle-arrays-2 {
+    font-size: 12px;
+    line-height: 120%;
+    color: #000000;
 }
 
 .gallery {
