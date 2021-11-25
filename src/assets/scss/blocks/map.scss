@@ -14,6 +14,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        
     }
     &__button {
         border-radius: 5px 0px 0px 5px;
@@ -36,13 +37,19 @@
     &__toggle {
         display: flex;
     }
+    &__russian {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
 
 }
 .map-region {
     cursor: pointer;
-    &:hover {
-        fill: #0054A5
-    }
+}
+.map-color-active {
+    fill: #1B75BB;
 }
 .map-active {
     background: #F3F9FC;
@@ -50,4 +57,50 @@
 }
 .d-none {
     display: none;
+}
+.elements {
+    &__info {
+        width: 261px;
+        height: auto;
+        background: #fff;
+        border-radius: 5px;
+        padding: 60px 20px 50px;
+        filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 120%;
+        color: #000000;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        line-height: 120%;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    &__subtitle-key {
+        font-size: 16px;
+        line-height: 120%;
+        color: #1B75BB;
+        margin-bottom: 4px;
+    }
+    &__subtitle-arrays {
+        font-size: 12px;
+        line-height: 120%;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+    &__subtitle-key-2 {
+        font-size: 16px;
+        line-height: 120%;
+        color: #1B75BB;
+        margin-bottom: 4px;
+    }
+    &__subtitle-arrays-2 {
+        font-size: 12px;
+        line-height: 120%;
+        color: #000000
+    }
 }
