@@ -52,5 +52,22 @@ $('.gallery__slider').slick({
   slidesToShow: 3,
   slidesToScroll: 3,
   prevArrow: '<button type="button" class="slick-prev-gallery"></button>',
-  nextArrow: '<button type="button" class="slick-next-gallery"></button>'
+  nextArrow: '<button type="button" class="slick-next-gallery"></button>',
+  responsive: [
+    {
+      breakpoint: 840,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  ]
 });

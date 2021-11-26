@@ -1,6 +1,21 @@
 .map {
     max-width: 1140px;
     margin: 0 auto 50px;
+    @include breakpoint($bp-1600) {
+        padding: 180px 162px 80px;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 180px 80px 80px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 70px 40px 51px;
+    }   
+    @include breakpoint($bp-768) {
+        padding: 70px 20px 51px;
+    }
+    @include breakpoint($bp-520) {
+        padding: 60px 20px 100px;
+     }
     &__title {
         font-family: 'Circe';
         font-style: normal;

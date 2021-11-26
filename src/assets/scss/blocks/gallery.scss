@@ -2,7 +2,21 @@
     max-width: 1140px;
     margin: 282px auto 220px;
     font-family: 'Circe';
-
+    @include breakpoint($bp-1600) {
+        padding: 180px 162px 80px;
+    } 
+    @include breakpoint($bp-1360) {
+        padding: 180px 80px 80px;
+    } 
+    @include breakpoint($bp-1024) {
+        padding: 70px 40px 51px;
+    }   
+    @include breakpoint($bp-768) {
+        padding: 70px 20px 51px;
+    }
+    @include breakpoint($bp-520) {
+        padding: 60px 20px 100px;
+     }
     &__block {
         background: #fff;
         overflow: hidden;
@@ -52,7 +66,7 @@
 .slick-prev-gallery,
 .slick-next-gallery {
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     display: block;
     height: 40px;
     width: 40px;
@@ -61,10 +75,7 @@
     cursor: pointer;
     color: transparent;
     background: transparent;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    top: 40%;
     padding: 0;
     border: none;
     outline: none;
@@ -90,6 +101,12 @@
         left: auto;
         right: -25px;
     }
+    @include breakpoint($bp-1200) {
+        left: -40px;
+    } 
+    @include breakpoint($bp-768) {
+        left: -20px;
+    } 
 }
 .slick-next-gallery {
     transform: rotate(180deg);
@@ -98,4 +115,10 @@
         left: -25px;
         right: auto;
     }
+    @include breakpoint($bp-1200) {
+        right: -50px;
+    }
+    @include breakpoint($bp-768) {
+        right: -20px;
+    } 
 }
