@@ -1825,7 +1825,7 @@ body {
       padding: 70px 20px 51px; } }
   @media screen and (max-width: 520px) {
     .map {
-      padding: 60px 20px 100px; } }
+      padding: 60px 20px 51px; } }
   .map__title {
     font-family: 'Circe';
     font-style: normal;
@@ -1838,6 +1838,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px; }
+    @media screen and (max-width: 768px) {
+      .map__header {
+        flex-direction: column; } }
   .map__button {
     border-radius: 5px 0px 0px 5px;
     width: 140px;
@@ -1856,11 +1859,27 @@ body {
       color: #608BB3; }
   .map__toggle {
     display: flex; }
+    @media screen and (max-width: 768px) {
+      .map__toggle {
+        margin-top: 20px; } }
   .map__russian {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative; }
+    @media screen and (max-width: 1240px) {
+      .map__russian {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 30px; } }
+    @media screen and (max-width: 425px) {
+      .map__russian {
+        align-items: center; } }
+
+@media screen and (max-width: 992px) {
+  .map-mobile {
+    width: 100%;
+    overflow: auto; } }
 
 .map-region {
   cursor: pointer; }
@@ -1929,6 +1948,9 @@ body {
   @media screen and (max-width: 1360px) {
     .gallery {
       padding: 180px 80px 80px; } }
+  @media screen and (max-width: 1240px) {
+    .gallery {
+      margin: 0px auto 0px; } }
   @media screen and (max-width: 1024px) {
     .gallery {
       padding: 70px 40px 51px; } }

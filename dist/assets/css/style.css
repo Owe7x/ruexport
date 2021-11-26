@@ -2538,6 +2538,36 @@ body {
     margin: 0 auto 50px;
 }
 
+@media screen and (max-width: 1600px) {
+    .map {
+        padding: 180px 162px 80px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .map {
+        padding: 180px 80px 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .map {
+        padding: 70px 40px 51px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map {
+        padding: 70px 20px 51px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .map {
+        padding: 60px 20px 100px;
+    }
+}
+
 .map__title {
     font-family: 'Circe';
     font-style: normal;
@@ -2669,6 +2699,36 @@ body {
     font-family: 'Circe';
 }
 
+@media screen and (max-width: 1600px) {
+    .gallery {
+        padding: 180px 162px 80px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .gallery {
+        padding: 180px 80px 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery {
+        padding: 70px 40px 51px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        padding: 70px 20px 51px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .gallery {
+        padding: 60px 20px 100px;
+    }
+}
+
 .gallery__block {
     background: #fff;
     overflow: hidden;
@@ -2725,7 +2785,7 @@ body {
 .slick-prev-gallery,
 .slick-next-gallery {
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     display: block;
     height: 40px;
     width: 40px;
@@ -2734,9 +2794,7 @@ body {
     cursor: pointer;
     color: transparent;
     background: transparent;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    top: 40%;
     padding: 0;
     border: none;
     outline: none;
@@ -2772,6 +2830,18 @@ body {
     right: -25px;
 }
 
+@media screen and (max-width: 1200px) {
+    .slick-prev-gallery {
+        left: -40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slick-prev-gallery {
+        left: -20px;
+    }
+}
+
 .slick-next-gallery {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
@@ -2781,4 +2851,16 @@ body {
 [dir="rtl"] .slick-next-gallery {
     left: -25px;
     right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .slick-next-gallery {
+        right: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slick-next-gallery {
+        right: -20px;
+    }
 }

@@ -14,7 +14,7 @@
         padding: 70px 20px 51px;
     }
     @include breakpoint($bp-520) {
-        padding: 60px 20px 100px;
+        padding: 60px 20px 51px;
      }
     &__title {
         font-family: 'Circe';
@@ -29,6 +29,9 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        @include breakpoint($bp-768) {
+            flex-direction: column;
+        }
         
     }
     &__button {
@@ -51,14 +54,31 @@
     }
     &__toggle {
         display: flex;
+        @include breakpoint($bp-768) {
+            margin-top: 20px;
+        }
     }
     &__russian {
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
+        @include breakpoint($bp-1240) {
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 30px;
+        }
+        @include breakpoint($bp-425) {
+            align-items: center;
+         }
     }
 
+}
+.map-mobile {
+    @include breakpoint($bp-992) {
+        width: 100%;
+        overflow: auto;
+    }
 }
 .map-region {
     cursor: pointer;

@@ -8,6 +8,9 @@
     @include breakpoint($bp-1360) {
         padding: 180px 80px 80px;
     } 
+    @include breakpoint($bp-1240) {
+        margin: 0px auto 0px;
+    }
     @include breakpoint($bp-1024) {
         padding: 70px 40px 51px;
     }   
