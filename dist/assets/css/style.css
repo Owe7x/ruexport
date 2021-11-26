@@ -2564,7 +2564,7 @@ body {
 
 @media screen and (max-width: 520px) {
     .map {
-        padding: 60px 20px 100px;
+        padding: 60px 20px 51px;
     }
 }
 
@@ -2584,6 +2584,13 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .map__header {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
 .map__button {
@@ -2614,6 +2621,12 @@ body {
     display: flex;
 }
 
+@media screen and (max-width: 768px) {
+    .map__toggle {
+        margin-top: 20px;
+    }
+}
+
 .map__russian {
     display: -ms-flexbox;
     display: flex;
@@ -2622,6 +2635,30 @@ body {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
+}
+
+@media screen and (max-width: 1240px) {
+    .map__russian {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .map__russian {
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .map-mobile {
+        width: 100%;
+        overflow: auto;
+    }
 }
 
 .map-region {
@@ -2708,6 +2745,12 @@ body {
 @media screen and (max-width: 1360px) {
     .gallery {
         padding: 180px 80px 80px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .gallery {
+        margin: 0px auto 0px;
     }
 }
 

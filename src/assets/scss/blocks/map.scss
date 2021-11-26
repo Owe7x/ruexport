@@ -11,11 +11,11 @@
         padding: 70px 40px 51px;
     }   
     @include breakpoint($bp-768) {
-        padding: 70px 20px 51px;
+        padding: 70px 0px 51px;
     }
     @include breakpoint($bp-520) {
-        padding: 60px 20px 51px;
-     }
+        padding: 60px 0px 51px;
+    }
     &__title {
         font-family: 'Circe';
         font-style: normal;
@@ -31,6 +31,7 @@
         margin-bottom: 50px;
         @include breakpoint($bp-768) {
             flex-direction: column;
+            padding: 0 20px;
         }
         
     }

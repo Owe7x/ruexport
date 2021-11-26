@@ -27,6 +27,9 @@
         max-width: 320px;
         min-height: 382px;
         margin: 0 10px;
+        @include breakpoint($bp-425) {
+            max-width: 100%;
+        }
     }
     &__info {
         padding: 20px 20px 0;

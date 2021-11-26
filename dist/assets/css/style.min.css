@@ -385,7 +385,7 @@ body {
       padding: 70px 40px 51px; } }
   @media screen and (max-width: 768px) {
     .bg-second {
-      padding: 70px 20px 51px; } }
+      padding: 70px 0px 51px; } }
 
 .bg-third {
   padding: 145px 40px 140px;
@@ -1822,10 +1822,10 @@ body {
       padding: 70px 40px 51px; } }
   @media screen and (max-width: 768px) {
     .map {
-      padding: 70px 20px 51px; } }
+      padding: 70px 0px 51px; } }
   @media screen and (max-width: 520px) {
     .map {
-      padding: 60px 20px 51px; } }
+      padding: 60px 0px 51px; } }
   .map__title {
     font-family: 'Circe';
     font-style: normal;
@@ -1840,7 +1840,8 @@ body {
     margin-bottom: 50px; }
     @media screen and (max-width: 768px) {
       .map__header {
-        flex-direction: column; } }
+        flex-direction: column;
+        padding: 0 20px; } }
   .map__button {
     border-radius: 5px 0px 0px 5px;
     width: 140px;
@@ -1967,6 +1968,9 @@ body {
     max-width: 320px;
     min-height: 382px;
     margin: 0 10px; }
+    @media screen and (max-width: 425px) {
+      .gallery__block {
+        max-width: 100%; } }
   .gallery__info {
     padding: 20px 20px 0; }
   .gallery__title {
