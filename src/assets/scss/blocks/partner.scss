@@ -38,6 +38,7 @@
     column-gap: 19px;
     row-gap: 32px;
     margin-bottom: 85px;
+    max-width: 1140px;
     @include breakpoint($bp-768) {
         justify-content: space-between;
     }

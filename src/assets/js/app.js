@@ -55,11 +55,11 @@ $('.gallery__slider').slick({
   nextArrow: '<button type="button" class="slick-next-gallery"></button>',
   responsive: [
     {
-      breakpoint: 840,
+      breakpoint: 820,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        infinite: true,
+        infinite: false,
       }
     },
     {

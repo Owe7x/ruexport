@@ -1,24 +1,21 @@
 .gallery {
     max-width: 1140px;
-    margin: 282px auto 220px;
+    margin: 282px auto 0px;
     font-family: 'Circe';
     @include breakpoint($bp-1600) {
-        padding: 180px 162px 80px;
-    } 
-    @include breakpoint($bp-1360) {
-        padding: 180px 80px 80px;
+        padding: 0px;
     } 
     @include breakpoint($bp-1240) {
-        margin: 0px auto 0px;
+        margin: 140px auto 0px;
     }
     @include breakpoint($bp-1024) {
-        padding: 70px 40px 51px;
+        padding: 0px 0px 51px;
     }   
     @include breakpoint($bp-768) {
-        padding: 70px 20px 51px;
+        padding: 0px 20px 51px;
     }
     @include breakpoint($bp-520) {
-        padding: 60px 20px 100px;
+        padding: 0px 20px 100px;
      }
     &__block {
         background: #fff;
@@ -27,6 +24,9 @@
         max-width: 320px;
         min-height: 382px;
         margin: 0 10px;
+        @include breakpoint($bp-820) {
+            max-width: unset;
+        }
         @include breakpoint($bp-425) {
             max-width: 100%;
         }

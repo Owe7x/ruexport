@@ -451,7 +451,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .bg-second {
-        padding: 70px 20px 51px;
+        padding: 70px 0px 51px;
     }
 }
 
@@ -2325,6 +2325,7 @@ body {
     column-gap: 19px;
     row-gap: 32px;
     margin-bottom: 85px;
+    max-width: 1140px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2558,13 +2559,13 @@ body {
 
 @media screen and (max-width: 768px) {
     .map {
-        padding: 70px 20px 51px;
+        padding: 70px 0px 51px;
     }
 }
 
 @media screen and (max-width: 520px) {
     .map {
-        padding: 60px 20px 51px;
+        padding: 60px 0px 51px;
     }
 }
 
@@ -2590,6 +2591,7 @@ body {
     .map__header {
         -ms-flex-direction: column;
         flex-direction: column;
+        padding: 0 20px;
     }
 }
 
@@ -2654,6 +2656,33 @@ body {
     }
 }
 
+.map__world {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 1240px) {
+    .map__world {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .map__world {
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .map-mobile {
         width: 100%;
@@ -2679,6 +2708,16 @@ body {
 }
 
 .elements__info {
+    width: 261px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+    -webkit-filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0px 2px 30px rgba(0, 0, 0, 0.15));
+}
+
+.elements__info-world {
     width: 261px;
     height: auto;
     background: #fff;
@@ -2730,6 +2769,10 @@ body {
     color: #000000;
 }
 
+path {
+    cursor: pointer;
+}
+
 .gallery {
     max-width: 1140px;
     margin: 282px auto 220px;
@@ -2779,6 +2822,12 @@ body {
     max-width: 320px;
     min-height: 382px;
     margin: 0 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .gallery__block {
+        max-width: 100%;
+    }
 }
 
 .gallery__info {

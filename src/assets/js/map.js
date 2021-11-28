@@ -757,7 +757,1082 @@ const initialCards = [
     },
 ]; 
 
+const initialCardsWorld = [
+    {
+        title: 'Китай',
+        subtitle: 'Объем 12 703,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Пиломатериалы, Медь, Растительные масла',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 85
+    },
+    {
+        title: 'Казахстан',
+        subtitle: 'Объем 11 400,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Стальной прокат, Продукция из пластмасс, Трубы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 86
+    },
+    {
+        title: 'Белоруссия',
+        subtitle: 'Объем 9 155,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Стальной прокат, Полимеры, Продукция из пластмасс',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 87
+    },
+    {
+        title: 'Турция',
+        subtitle: 'Объем 9 123,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно, Стальной прокат, Алюминий, Сталь',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 88
+    },
+    {
+        title: 'США',
+        subtitle: 'Объем 6 462,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды, Чугун, Продукция машиностроения, Неорганические вещества',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 89
+    },
+    {
+        title: 'Германия',
+        subtitle: 'Объем 6 462,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды, Продукция машиностроения, Медь, Стальной прокат',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 90
+    },
+    {
+        title: 'Нидерланды',
+        subtitle: 'Объем 4 587,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Никель, Медь, Алюминий, Продукция машиностроения',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 91
+    },
+    {
+        title: 'Республика Корея',
+        subtitle: 'Объем 3 510,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Рыба, Ракообразные, Платиноиды, Алюминий',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 92
+    },
+    {
+        title: 'Украина',
+        subtitle: 'Объем 3 269,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Стальной прокат, Неорганические вещества, Продукция из пластмасс',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 93
+    },
+    {
+        title: 'Узбекистан',
+        subtitle: 'Объем 3 181,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Стальной прокат, Пиломатериалы, Трубы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 94
+    },
+    {
+        title: 'Бельгия',
+        subtitle: 'Объем 3 019,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь, Продукция машиностроения, Стальной прокат, Бриллианты',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 95
+    },
+    {
+        title: 'Япония',
+        subtitle: 'Объем 2 895,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды, Алюминий, Пиломатериалы, Ферросплавы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 96
+    },
+    {
+        title: 'Польша',
+        subtitle: 'Объем 2 792,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат, Органические соединения, Полимеры, Неорганические вещества',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 97
+    },
+    {
+        title: 'Индия',
+        subtitle: 'Объем 2 744,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Удобрения, Растительные масла, Неорганические вещества',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 98
+    },
+    {
+        title: 'Италия',
+        subtitle: 'Объем 2 725,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды, Стальной прокат, Алюминий, Сталь',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 99
+    },
+    {
+        title: 'Египет',
+        subtitle: 'Объем 2 665,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно, Продукция машиностроения, Медь, Пиломатериалы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 100
+    },
+    {
+        title: 'Финляндия',
+        subtitle: 'Объем 2 592,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Никелевый штейн, Органические соединения, Удобрения, Пиломатериалы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 101
+    },
+    {
+        title: 'Мексика',
+        subtitle: 'Объем 2 527,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь, Удобрения, Алюминий, Стальной прокат',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 102
+    },
+        {
+        title: 'Бразилия',
+        subtitle: 'Объем 2 469,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения, Сталь, Стальной прокат, Полимеры',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 103
+    },    {
+        title: 'Великобритания',
+        subtitle: 'Объем 2 235,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды, Продукция машиностроения, Серебро, Пиломатериалы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 104
+    },
+    {
+        title: 'Иран',
+        subtitle: 'Объем 2 195,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно, Растительные масла, Продукция машиностроения, Пиломатериалы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 105
+    },
+    {
+        title: 'Алжир',
+        subtitle: 'Объем 2 033,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Растительные масла, Зерно, Полиграфия',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 106
+    },
+    {
+        title: 'Тайвань (Китай)',
+        subtitle: 'Объем 2 014,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь, Алюминий, Органические соединения, Стальной прокат',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 107
+    },
+    {
+        title: 'Эстония',
+        subtitle: 'Объем 1 781,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения, Продукция машиностроения, Неорганические вещества, Пиломатериалы',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 108
+    },
+    {
+        title: 'Чехия',
+        subtitle: 'Объем 1 615,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Сталь, Неорганические вещества, Синтетический каучук',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 109
+    },
+    {
+        title: 'Азербайджан',
+        subtitle: 'Объем v млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Зерно, Пиломатериалы, Стальной прокат',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 110
+    },
+        {
+        title: 'Литва',
+        subtitle: 'Объем 1 516,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения, Стальной прокат, Удобрения, Полимеры',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 111
+    },
+    {
+        title: 'Латвия',
+        subtitle: 'Объем 1 379,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат, Зерно, Корма, Продукция машиностроения',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 112
+    },
+    {
+        title: 'ОАЭ',
+        subtitle: 'Объем 1 184,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Сталь, Фармацевтическая продукция, Бриллианты ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 113
+    },
+    {
+        title: 'Бангладеш',
+        subtitle: 'Объем 1 078,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Алюминий, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 114
+    },
+    {
+        title: 'Гонконг (Китай)',
+        subtitle: 'Объем 1 001,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды , Продукция машиностроения, Удобрения, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 115
+    },
+    {
+        title: 'Франция',
+        subtitle: 'Объем 937,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Стальной прокат, Неорганические вещества, Пиломатериалы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 116
+    },
+    {
+        title: 'Киргизия',
+        subtitle: 'Объем 923,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Продукция машиностроения, Кондитерские изделия, Древесные плиты ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 117
+    },
+    {
+        title: 'Вьетнам',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Мясо, Прямовосстановленное железо, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 118
+    },
+    {
+        title: 'Армения',
+        subtitle: 'Объем 829,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Алюминий, Зерно, Кондитерские изделия ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 119
+    },
+    {
+        title: 'Дания',
+        subtitle: 'Объем 821,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь , Пеллеты, Стальной прокат, Корма ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 120
+    },
+    {
+        title: 'Израиль',
+        subtitle: 'Объем 774,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Зерно, Пиломатериалы, Удобрения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 121
+    },
+    {
+        title: 'Швейцария',
+        subtitle: 'Объем 758,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Платиноиды , Удобрения, Никелевый штейн, Серебро ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 122
+    },
+    {
+        title: 'Норвегия',
+        subtitle: 'Объем 751,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Растительные масла , Алюминий, Корма, Рыба ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 123
+    },
+    {
+        title: 'Саудовская Аравия',
+        subtitle: 'Объем 632,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Мясо, Растительные масла, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 125
+    },
+    {
+        title: 'Монголия',
+        subtitle: 'Объем 610,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Стальной прокат, Зерно, Кондитерские изделия ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 126
+    },
+    {
+        title: 'Румыния',
+        subtitle: 'Объем 593,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Стальной прокат, Продукция машиностроения, Синтетический каучук ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 127
+    },
+    {
+        title: 'Туркмения',
+        subtitle: 'Объем 580,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Трубы, Стальной прокат, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 128
+    },
+    {
+        title: 'Таджикистан',
+        subtitle: 'Объем 570,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Стальной прокат, Пиломатериалы, Растительные масла ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 129
+    },
+    {
+        title: 'Сербия',
+        subtitle: 'Объем 525,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Табак подготовленный, Полимеры, Удобрения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 130
+    },
+    {
+        title: 'Швеция',
+        subtitle: 'Объем 519,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Неорганические вещества , Шины, Удобрения, Алюминий ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 131
+    },
+    {
+        title: 'Греция',
+        subtitle: 'Объем 504,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Алюминий , Зерно, Удобрения, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 132
+    },
+    {
+        title: 'Сирия',
+        subtitle: 'Объем 499,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Полиграфия , Зерно, Растительные масла, Зернобобовые ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 133
+    },
+    {
+        title: 'Испания',
+        subtitle: 'Объем 497,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Прямовосстановленное железо , Неорганические вещества, Корма, Синтетический каучук ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 134
+    },
+    {
+        title: 'Грузия',
+        subtitle: 'Объем 464,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Растительные масла, Бытовая химия ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 135
+    },
+    {
+        title: 'Молдавия',
+        subtitle: 'Объем v млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Удобрения, Фармацевтическая продукция, Продукция из пластмасс ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 136
+    },
+    {
+        title: 'Кувейт',
+        subtitle: 'Объем 440,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Медная проволока , Медь, Фармацевтическая продукция, Трубы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 137
+    },
+    {
+        title: 'Канада',
+        subtitle: 'Объем 411,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Удобрения, Шины, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 138
+    },
+    {
+        title: 'Таиланд',
+        subtitle: 'Объем 408,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Алюминий , Алюминий, Удобрения, Сталь ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 139
+    },
+    {
+        title: 'Нигерия',
+        subtitle: 'Объем 400,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Рыба, Удобрения, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 140
+    },
+    {
+        title: 'Болгария',
+        subtitle: 'Объем 357,5 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Алюминий , Продукция машиностроения, Удобрения, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 141
+    },
+    {
+        title: 'Венгрия',
+        subtitle: 'Объем 351,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Синтетический каучук, Неорганические вещества, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 142
+    },
+    {
+        title: 'Словакия',
+        subtitle: 'Объем 325,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Органические соединения, Синтетический каучук, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 143
+    },
+    {
+        title: 'Филиппины',
+        subtitle: 'Объем 308,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь , Бумага и картон, Продукция машиностроения, Пиломатериалы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 144
+    },
+    {
+        title: 'Аргентина',
+        subtitle: 'Объем 305,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Фармацевтическая продукция , Удобрения, Стальной прокат, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 145
+    },
+    {
+        title: 'Кения',
+        subtitle: 'Объем 286,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Алюминий, Сталь, Удобрения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 146
+    },
+    {
+        title: 'Марокко',
+        subtitle: 'Объем 281,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Неорганические вещества , Алюминий, Зерно, Удобрения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 147
+    },
+    {
+        title: 'Уганда',
+        subtitle: 'Объем 264,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Бумага и картон, Продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 148
+    },
+    {
+        title: 'Тунис',
+        subtitle: 'Объем 259,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Неорганические вещества, Продукция машиностроения, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 149
+    },
+    {
+        title: 'Индонезия',
+        subtitle: 'Объем 258,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Сталь, Алюминий, Рыба ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 150
+    },
+    {
+        title: 'Пакистан',
+        subtitle: 'Объем 254,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Зернобобовые, Стальной прокат, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 151
+    },
+
+    {
+        title: 'Перу',
+        subtitle: 'Объем 253,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Продукция машиностроения, Зерно, Сталь ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 152
+    },
+    {
+        title: 'Танзания',
+        subtitle: 'Объем 204,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Алюминий , Зерно, Удобрения, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 153
+    },
+
+    {
+        title: 'Судан',
+        subtitle: 'Объем 204,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Зерно , Масложировая продукция, Фармацевтическая продукция, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 154
+    },    {
+        title: 'Ливия',
+        subtitle: 'Объем 201,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сигареты , Зерно, Полиграфия, Кондитерские изделия ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 155
+    },
+    {
+        title: 'Кипр',
+        subtitle: 'Объем 195,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Алюминий, Неорганические вещества ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 156
+    },
+    {
+        title: 'Португалия',
+        subtitle: 'Объем 190,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Фанера, Продукция машиностроения, Неорганические вещества ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 157
+    },
+    {
+        title: 'Малайзия',
+        subtitle: 'Объем 181,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Алюминий, Продукция машиностроения, Растительные масла ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 158
+    },
+    {
+        title: 'Йемен',
+        subtitle: 'Объем 178,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Полиграфия , Зерно, Продукция машиностроения, Мука ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 159
+    },
+    {
+        title: 'ЮАР',
+        subtitle: 'Объем 176,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Зерно, Полимеры, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 160
+    },
+    {
+        title: 'Колумбия',
+        subtitle: 'Объем 171,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Удобрения, Продукция машиностроения, Сталь ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 161
+    },
+    {
+        title: 'Австрия',
+        subtitle: 'Объем 169,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Пиломатериалы, Фанера, Ферросплавы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 162
+    },
+    {
+        title: 'Иордания',
+        subtitle: 'Объем 161,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Сталь, Органические соединения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 163
+    },
+    {
+        title: 'Хорватия',
+        subtitle: 'Объем 155,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Алюминий , Медь, Алюминиевый прокат, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 164
+    },
+    {
+        title: 'Сингапур',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Свинец, Бытовая химия, Серебро ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 165
+    },
+    {
+        title: 'Абхазия',
+        subtitle: 'Объем 153,5 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Фармацевтическая продукция, Напитки, Мебель ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 166
+    },
+    {
+        title: 'Австралия',
+        subtitle: 'Объем 151,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Деревянные изделия, Неорганические вещества, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 167
+    },
+    {
+        title: 'Оман',
+        subtitle: 'Объем 145,5 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Прямовосстановленное железо , Зерно, Продукция машиностроения, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 168
+    },
+    {
+        title: 'Эквадор',
+        subtitle: 'Объем 139,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Бумага и картон, Неорганические вещества, Полимеры ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 169
+    },
+    {
+        title: 'Ирландия',
+        subtitle: 'Объем 137,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Продукция машиностроения, Корма, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 170
+    },
+    {
+        title: 'Сенегал',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Зерно, Удобрения, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 171
+    },
+    {
+        title: 'Гана',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Зерно, Стальной прокат, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 172
+    },
+    {
+        title: 'Эфиопия',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Стальной прокат, Продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 173
+    },
+    {
+        title: 'Словения',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Органические соединения, Продукция машиностроения, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 174
+    },
+    {
+        title: 'Камерун',
+        subtitle: 'Объем 107,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Зерно, Рыба, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 175
+    },
+    {
+        title: 'Кот-д-Ивуар',
+        subtitle: 'Объем 106,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Зерно, Рыба, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 176
+    },
+    {
+        title: 'Гондурас',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Сталь, Солод',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 177
+    },
+    {
+        title: 'Мьянма',
+        subtitle: 'Объем 104,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 178
+    },
+    {
+        title: 'Гватемала',
+        subtitle: 'Объем 103,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Фармацевтическая продукция, Удобрения, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 179
+    },
+    {
+        title: 'Ирак',
+        subtitle: 'Объем 99,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Пиломатериалы , Стальной прокат, Зерно, Продукция машиностроения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 180
+    },
+    {
+        title: 'Ливан',
+        subtitle: 'Объем 98,5 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Растительные масла , Зерно, Пиломатериалы, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 181
+    },
+    {
+        title: 'ДР Конго',
+        subtitle: 'Объем 82,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Фармацевтическая продукция , Зерно, Мясо',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 182
+    },
+    {
+        title: 'Никарагуа',
+        subtitle: 'Объем 82,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Зерно, Продукция машиностроения, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 183
+    },
+    {
+        title: 'Доминиканская Республика',
+        subtitle: 'Объем 80,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь , Стальной прокат, Удобрения, Солод ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 184
+    },
+    {
+        title: 'Мали',
+        subtitle: 'Объем 75,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Удобрения ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 185
+    },
+    {
+        title: 'Венесуэла',
+        subtitle: 'Объем 74,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Фармацевтическая продукция , Удобрения, Продукция машиностроения , Изделия из черных металлов ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 186
+    },
+    {
+        title: 'Албания',
+        subtitle: 'Объем 73,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Зерно, Растительные масла, Пиломатериалы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 187
+    },
+    {
+        title: 'Конго',
+        subtitle: 'Объем 71,7 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Одежда',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 188
+    },
+    {
+        title: 'Чили',
+        subtitle: 'Объем 68,1 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Рыба , Удобрения, Древесные плиты, Бумага и картон ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 189
+    },
+    {
+        title: 'Ангола',
+        subtitle: 'Объем 65,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Полиграфия, Мясо ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 190
+    },
+    {
+        title: 'Куба',
+        subtitle: 'Объем 65,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Растительные масла , Продукция машиностроения, Изделия из черных металлов',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 191
+    },
+    {
+        title: 'Сальвадор',
+        subtitle: 'Объем 52,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь , Стальной прокат, Удобрения, Солод ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 192
+    },
+    {
+        title: 'Афганистан',
+        subtitle: 'Объем 51,2 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Растительные масла , Пиломатериалы, Продукция машиностроения, Кондитерские изделия ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 193
+    },
+    {
+        title: 'Руанда',
+        subtitle: 'Объем 47,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Полиграфия',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 194
+    },
+    {
+        title: 'Шри-Ланка',
+        subtitle: 'Объем 1111 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Бумага и картон , Зерно, Неорганические вещества, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 195
+    },
+    {
+        title: 'Ботсвана',
+        subtitle: 'Объем 40,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Бриллианты',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 196
+    },
+    {
+        title: 'Босния и Герцеговина',
+        subtitle: 'Объем 40,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Стальной прокат , Продукция машиностроения, Полимеры, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 197
+    },
+    {
+        title: 'Боливия',
+        subtitle: 'Объем 39,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Машиностроение , Полиграфия, Фармацевтическая продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 198
+    },
+    {
+        title: 'Уругвай',
+        subtitle: 'Объем 39,4 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Неорганические вещества',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 199
+    },
+    {
+        title: 'Мозамбик',
+        subtitle: 'Объем 36,3 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Зерно, Растительные масла ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 200
+    },
+    {
+        title: 'Гвинея',
+        subtitle: 'Объем 34,0 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Продукция машиностроения , Зерно, Изделия из черных металлов, Рельсы ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 201
+    },
+    {
+        title: 'Бенин',
+        subtitle: 'Объем 28,8 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Удобрения , Мясо, Стальной прокат, Зерно ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 202
+    },
+    {
+        title: 'Джибути',
+        subtitle: 'Объем 26,9 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Сталь , Продукция машиностроения',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 203
+    },
+    {
+        title: 'Того',
+        subtitle: 'Объем 26,6 млн. долл. США',
+        subtitleKey: 'Ключевые товарные группы:',
+        subtitleArrays: 'Органические соединения , Зерно, Стальной прокат ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 204
+    },
+]
+
 const elementsList = document.querySelector('.elements__result')
+const elementsListWorld = document.querySelector('.elements__result-world')
 
 class Card {
     constructor(item, template) {
@@ -803,14 +1878,25 @@ $('#mapRussian').on('click', function(e) {
         $('#' + item.id).css('fill', '#1B75BB')
         if(item.id == targetId) {
             $('#' + targetId).css('fill', '#0054A5')
-            addCard(item)
+            addCard(item, elementsList, '#element-template')
+        } 
+    })
+})
+$('#worldMap').on('click', function(e) {
+    $('.elements__info-world').remove()
+    const target = e.target
+    const targetId = target.id
+    initialCardsWorld.forEach(item => {
+        $('#' + item.id).css('fill', '#1B75BB')
+        if(item.id == targetId) {
+            $('#' + targetId).css('fill', '#0054A5')
+            addCard(item, elementsListWorld , '#element-template-world')
         } 
     })
 })
 
-
-function addCard(item) {
-    const card = new Card(item, '#element-template');
+function addCard(item ,elemList, elemTemplate) {
+    const card = new Card(item, elemTemplate);
     const cardElements = card.createElement();
-    elementsList.prepend(cardElements);
+    elemList.prepend(cardElements);
 }

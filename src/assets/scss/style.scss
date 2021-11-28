@@ -54,10 +54,10 @@ body {
     margin: 0 auto;
     background-size: cover;
     @include breakpoint($bp-1600) {
-        padding: 145px 0 140px;
+        padding: 145px 0 217px;
     } 
     @include breakpoint($bp-1360) {
-        padding: 120px 0 120px;
+        padding: 120px 80px 120px;
     } 
     @include breakpoint($bp-1024) {
         padding: 70px 40px 51px;
@@ -105,3 +105,4 @@ body {
 @import "blocks/footer.scss";
 @import "blocks/map.scss";
 @import "blocks/gallery.scss";
+@import "blocks/speakers.scss";
