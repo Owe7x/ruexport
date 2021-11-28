@@ -1871,6 +1871,7 @@ class Card {
     }
 }
 $('#mapRussian').on('click', function(e) {
+    $('.map__russian').removeClass('mapCenter')
     $('.elements__info').remove()
     const target = e.target
     const targetId = target.id
@@ -1883,6 +1884,7 @@ $('#mapRussian').on('click', function(e) {
     })
 })
 $('#worldMap').on('click', function(e) {
+    $('.map__world').removeClass('mapCenter')
     $('.elements__info-world').remove()
     const target = e.target
     const targetId = target.id

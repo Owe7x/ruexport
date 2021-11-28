@@ -1877,13 +1877,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; }
+    position: relative;
+    transition: all 1s linear; }
     @media screen and (max-width: 1240px) {
       .map__russian {
         flex-direction: column;
         align-items: flex-start;
         row-gap: 30px; } }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 768px) {
       .map__russian {
         align-items: center; } }
   .map__world {
@@ -1896,7 +1897,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         row-gap: 30px; } }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 768px) {
       .map__world {
         align-items: center; } }
 
@@ -1972,6 +1973,9 @@ body {
 
 path {
   cursor: pointer; }
+
+.mapCenter {
+  justify-content: center; }
 
 .gallery {
   max-width: 1140px;

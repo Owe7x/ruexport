@@ -433,13 +433,13 @@ body {
 
 @media screen and (max-width: 1600px) {
     .bg-second {
-        padding: 145px 0 140px;
+        padding: 145px 0 217px;
     }
 }
 
 @media screen and (max-width: 1360px) {
     .bg-second {
-        padding: 120px 0 120px;
+        padding: 120px 80px 120px;
     }
 }
 
@@ -1385,6 +1385,7 @@ body {
     position: relative;
     margin-top: 28px;
     margin-bottom: 48px;
+    font-family: 'Circe';
 }
 
 @media screen and (max-width: 520px) {
@@ -1472,6 +1473,33 @@ body {
     height: 45px;
     font-size: unset;
     line-height: unset;
+}
+
+.btn__speakers {
+    background: #0073B8;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 44px auto 0;
+    max-width: 320px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 80px;
+}
+
+.btn__speakers::after {
+    display: none;
+}
+
+.btn__speakers:hover {
+    opacity: 0.8;
 }
 
 #embeddedApp {
@@ -2541,31 +2569,8 @@ body {
 
 @media screen and (max-width: 1600px) {
     .map {
-        padding: 180px 162px 80px;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    .map {
-        padding: 180px 80px 80px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .map {
-        padding: 70px 40px 51px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .map {
-        padding: 70px 0px 51px;
-    }
-}
-
-@media screen and (max-width: 520px) {
-    .map {
-        padding: 60px 0px 51px;
+        padding: 0px;
+        margin: 0 auto 0px;
     }
 }
 
@@ -2775,43 +2780,37 @@ path {
 
 .gallery {
     max-width: 1140px;
-    margin: 282px auto 220px;
+    margin: 282px auto 0px;
     font-family: 'Circe';
 }
 
 @media screen and (max-width: 1600px) {
     .gallery {
-        padding: 180px 162px 80px;
-    }
-}
-
-@media screen and (max-width: 1360px) {
-    .gallery {
-        padding: 180px 80px 80px;
+        padding: 0px;
     }
 }
 
 @media screen and (max-width: 1240px) {
     .gallery {
-        margin: 0px auto 0px;
+        margin: 140px auto 0px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .gallery {
-        padding: 70px 40px 51px;
+        padding: 0px 0px 51px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .gallery {
-        padding: 70px 20px 51px;
+        padding: 0px 20px 51px;
     }
 }
 
 @media screen and (max-width: 520px) {
     .gallery {
-        padding: 60px 20px 100px;
+        padding: 0px 20px 100px;
     }
 }
 
@@ -2822,6 +2821,12 @@ path {
     max-width: 320px;
     min-height: 382px;
     margin: 0 10px;
+}
+
+@media screen and (max-width: 820px) {
+    .gallery__block {
+        max-width: unset;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -2955,4 +2960,130 @@ path {
     .slick-next-gallery {
         right: -20px;
     }
+}
+
+.speakers {
+    background: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+@media screen and (max-width: 1360px) {
+    .speakers {
+        padding: 100px 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .speakers {
+        padding: 100px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .speakers {
+        padding: 70px 20px;
+    }
+}
+
+.speakers::after {
+    display: block;
+    content: '';
+    background: url(../images/btn__after.svg);
+    width: 92px;
+    height: 12px;
+    position: absolute;
+    top: 83px;
+    right: 18%;
+}
+
+.speakers__awaiting {
+    background: #EC1C24;
+    color: #fff;
+    font-size: 18px;
+    line-height: 140%;
+    max-width: 200px;
+    width: 100%;
+    height: 28px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    top: 32px;
+}
+
+.speakers__container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.speakers__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #002E5E;
+    margin-bottom: 34px;
+}
+
+.speakers__blocks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .speakers__blocks {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.speakers__block {
+    background: #fff;
+    max-width: 270px;
+    -webkit-filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.1));
+}
+
+.speakers__block-info {
+    padding: 15px;
+}
+
+.speakers__block-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #0073B8;
+    margin-bottom: 3px;
+}
+
+.speakers__block-subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.speakers__block-text {
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.speakers__img {
+    max-width: 100%;
 }
