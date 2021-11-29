@@ -2642,6 +2642,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     position: relative;
+    transition: all 1s linear;
 }
 
 @media screen and (max-width: 1240px) {
@@ -2654,7 +2655,7 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .map__russian {
         -ms-flex-align: center;
         align-items: center;
@@ -2681,7 +2682,7 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .map__world {
         -ms-flex-align: center;
         align-items: center;
@@ -2776,6 +2777,11 @@ body {
 
 path {
     cursor: pointer;
+}
+
+.mapCenter {
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .gallery {

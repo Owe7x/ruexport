@@ -59,7 +59,7 @@ $('.gallery__slider').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        infinite: false,
+        infinite: true,
       }
     },
     {

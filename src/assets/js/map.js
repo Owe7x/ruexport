@@ -1831,6 +1831,766 @@ const initialCardsWorld = [
     },
 ]
 
+const initialCardsEng = [
+    {
+        title: 'Altai Krai',
+        subtitle: 'Volume of non-resource-based exports: $87.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Freight Cars, Wheat, Pneumatic Tires',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Uzbekistan, China, USA',
+        id: 1
+      },
+    {
+        title: 'Amur Oblast',
+        subtitle: 'Volume of non-resource-based exports: $115.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Soy, Soybean Oil, Barley, Soybean Meal and Cake Meal',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Republic of Korea, Kazakhstan, Vietnam',
+        id: 2
+    },
+    {
+        title: 'Arkhangelsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1248.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Other Uncoated Stock and Cardboard, Uncoated Kraft Paper and Kraft Cardboard, Kraft Pulp',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Netherlands, Great Britain, Germany',
+        id: 3
+    },
+    {
+        title: 'Astrakhan Oblast',
+        subtitle: 'Volume of non-resource-based exports: $815.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platforms, Docks, Lighthouses and Similar Watercraft, Corn, Lumber, Barley',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'India, Turkmenistan, China, Iran',
+        id: 4
+    },
+    {
+        title: 'Belgorod Oblast',
+        subtitle: 'Volume of non-resource-based exports: $3169.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Direct Reduced Iron, Semi-finished Products of Non-alloy Steel, Sunflower Oil, Bars and Shapes of Alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Turkey, Italy, Belarus',
+        id: 5
+    },
+    {
+        title: 'Bryansk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $279.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Diesel Locomotives, Parts of Railway Equipment, Lumber, Passenger Cars',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Kazakhstan, Lithuania, Germany',
+        id: 6
+    },
+    {
+        title: 'Vladimir Oblast',
+        subtitle: 'Volume of non-resource-based exports: $844.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Immunological and Blood Products, Plywood, Chocolate Products, Fiberglass and Products Made Thereof',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, Argentina, Uzbekistan',
+        id: 7
+    },
+    {
+        title: 'Volgograd Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1009.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Carbon Black, Seamless Steel Pipes, Wheat, Steel Pipes, Except the Ones with Large Diameter and Seamless Pipes',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Kazakhstan, Belarus, Germany',
+        id: 8
+    },
+    {
+        title: 'Vologda Oblast',
+        subtitle: 'Volume of non-resource-based exports: $4632.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Unalloyed Hot-Rolled Sheet Metal, Mixed Fertilizers, Nitrogen Fertilizers, Unalloyed Sheet Metal with Coatings',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Poland, Brazil, Italy, Latvia',
+        id: 9
+    },
+    {
+        title: 'Voronezh Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1011.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Synthetic Rubber, Ammonia, Sunflower Oil, Wheat',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Ukraine, Turkey, Belarus, Uzbekistan',
+        id: 10
+    },
+    {
+        title: 'Jewish Autonomous Oblast',
+        subtitle: 'Volume of non-resource-based exports: $7.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Soy, Furniture not Intended for Sitting, Sulfates, Alum, Persulfates',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Uzbekistan, Ukraine, USA',
+        id: 11
+    },
+    {
+        title: 'Zabaykalsky Krai',
+        subtitle: 'Volume of non-resource-based exports: $7.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Radioactive Materials, Lumber, Ice Cream, Oats',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Mongolia, Czech Republic, Kazakhstan',
+        id: 12
+    },
+    {
+        title: 'Ivanovo Oblast',
+        subtitle: 'Volume of non-resource-based exports: $198.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Saturated acyclic monocarboxylic acids and their derivatives, Fabrics of Cotton Weighing not More than 200 g/m2, Parts of Lifting, Road Construction and Mining Equipment, Carbon Black',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Kazakhstan, Netherlands, Germany',
+        id: 13
+    },
+    {
+        title: 'Irkutsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $4582.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum and its Alloys, Lumber, Kraft Pulp, Aluminum Wire',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Turkey, Japan, Netherlands',
+        id: 14
+    },
+    {
+        title: 'Kabardino-Balkar Republic',
+        subtitle: 'Volume of non-resource-based exports: $15.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Chocolate Products, Soft Drinks, Interchangeable Tools, Confectionery Products with Sugar',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Uzbekistan, Ukraine, Kyrgyzstan',
+        id: 15
+    },
+    {
+        title: 'Kaliningrad Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1714.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Soybean Oil, Soybean Meal and Cake Meal, Rapeseed Oil, Wheat',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Norway, Belarus, China, Algeria',
+        id: 16
+    },
+    {
+        title: 'Kaluga Oblast',
+        subtitle: 'Volume of non-resource-based exports: $985.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Semi-finished Products of Non-alloy Steel, Televisions, Monitors, Video Tuners, Pneumatic Tires, Hot-Rolled Bars of Non-alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Turkey, Poland, Belarus',
+        id: 17
+    },
+    {
+        title: 'Kamchatka Krai',
+        subtitle: 'Volume of non-resource-based exports: $584.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Frozen Fish, Crustaceans, Fish Fillets and Other Types of Meat, Meat and Fish Meal',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Republic of Korea, China, Japan, Germany',
+        id: 18
+    },
+    {
+        title: 'Karachay-Cherkess Republic',
+        subtitle: 'Volume of non-resource-based exports: $12.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Multilayered and Porous Polymer Films and Sheets, Single-layer Polymer Films and Sheets, Combed Wool and Animal Hair, Water',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Ukraine, Kazakhstan, Georgia',
+        id: 19
+    },
+    {
+        title: 'Kemerovo Oblast',
+        subtitle: 'Volume of non-resource-based exports: $2808.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Semi-finished Products of Non-alloy Steel, Ferroalloys, Aluminum and its Alloys, Nitrogen heterocyclic compounds',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Taiwan (China), Kazakhstan, Japan, Republic of Korea',
+        id: 20
+    },
+    {
+        title: 'Kirov Oblast',
+        subtitle: 'Volume of non-resource-based exports: $851.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Mixed Fertilizers, Plywood, Nitrogen Fertilizers, Ammonia',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'USA, Belgium, Mexico, Finland',
+        id: 21
+    },
+    {
+        title: 'Kostroma Oblast',
+        subtitle: 'Volume of non-resource-based exports: $851.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Plywood, Silver, Fiberboard, Jewelry',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Switzerland, USA, Kazakhstan, Great Britain',
+        id: 22
+    },
+    {
+        title: 'Krasnodar Krai',
+        subtitle: 'Volume of non-resource-based exports: $3717.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Unalloyed Steel Wire Rod, Sunflower Oil, Semi-finished Products Of Non-alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Israel, Egypt, China',
+        id: 23
+    },
+    {
+        title: 'Krasnoyarsk Krai',
+        subtitle: 'Volume of non-resource-based exports: $6521.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum and its Alloys, Refined Copper, Lumber, Platinum Group Metals',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Netherlands, Germany, China, Turkey',
+        id: 24
+    },
+    {
+        title: 'Kurgan Oblast',
+        subtitle: 'Volume of non-resource-based exports: $101.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Buses and Minibuses, Cable Products, Flax Seeds',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Nicaragua, USA, Uzbekistan',
+        id: 25
+    },
+    {
+        title: 'Kursk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $361.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Single-layer Polymer Films and Sheets, Complex Synthetic Threads and Loose Monofilaments, Pork, Malt',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Ukraine, Latvia, Belarus, Kazakhstan',
+        id: 26
+    },
+    {
+        title: 'Leningrad Oblast',
+        subtitle: 'Volume of non-resource-based exports: $2787.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Mixed Fertilizers, Pneumatic Tires, Ammonia, Lumber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Estonia, Kazakhstan, Finland, Belarus',
+        id: 27
+    },
+    {
+        title: 'Lipetsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $5101.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Semi-finished Products of Non-alloy Steel, Unalloyed Hot-Rolled Sheet Metal, Semi-finished Products of Alloy Steel, Unalloyed Cold Rolled Sheet Metal',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Mexico, Belgium, Turkey, Denmark',
+        id: 28
+    },
+    {
+        title: 'Magadan Oblast',
+        subtitle: 'Volume of non-resource-based exports: $160.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Crustaceans, Frozen Fish, Shellfish, Equipment for Mineral Substances Processing',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Republic of Korea, Great Britain, Spain, China',
+        id: 29
+    },
+    {
+        title: 'Moscow',
+        subtitle: 'Volume of non-resource-based exports: $23201.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinum Group Metals, Wheat, Turbo Engines and Gas Turbines, Immunological and Blood Products',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, USA, Great Britain',
+        id: 30
+    },
+    {
+        title: 'Moscow Oblast',
+        subtitle: 'Volume of non-resource-based exports: $6377.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nuclear Reactors and Fuel Rods, Passenger Cars, Chocolate Products, Lasers and Special Optics',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, China, Uzbekistan',
+        id: 31
+    },
+    {
+        title: 'Murmansk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $2888.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nickel, Nickel Matte, Crustaceans, Frozen Fish',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Netherlands, Finland, Switzerland, China',
+        id: 32
+    },
+    {
+        title: 'Nizhny Novgorod Oblast',
+        subtitle: 'Volume of non-resource-based exports: $3303.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nuclear Reactors and Fuel Rods, Steam Turbines, Thermal Equipment, Sunflower Oil',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Bangladesh, Kazakhstan, China',
+        id: 33
+    },
+    {
+        title: 'Novgorod Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1522.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nitrogen Fertilizers, Mixed Fertilizers, Plywood, Lumber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Brazil, USA, Hong Kong (China), China',
+        id: 34
+    },
+    {
+        title: 'Novosibirsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1300.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nuclear Reactors and Fuel Rods, Wheat, Lumber, Electrical Products Made of Carbon',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, China, Ukraine, Cyprus',
+        id: 35
+    },
+    {
+        title: 'Omsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $672.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Carbon Black, Polypropylene, Wheat, Synthetic Rubber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, China, Turkey, Belarus',
+        id: 36
+    },
+    {
+        title: 'Orenburg Oblast',
+        subtitle: 'Volume of non-resource-based exports: $940.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Cast Iron, Rare Metals, Chrome, Sunflower Oil, Unalloyed Hot-Rolled Sheet Metal',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'USA, Kazakhstan, Italy, Azerbaijan',
+        id: 37
+    },
+    {
+        title: 'Oryol Oblast',
+        subtitle: 'Volume of non-resource-based exports: $268.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Refrigeration Equipment, Rapeseed Oil, Facing Tiles and Similar Products (until 2017: Unglazed Facing Tiles), Wheat',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Latvia, Belarus, Kazakhstan, Germany',
+        id: 38
+    },
+    {
+        title: 'Penza Oblast',
+        subtitle: 'Volume of non-resource-based exports: $246.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Furniture not Intended for Sitting, Aluminum and its Alloys, Poultry Meat and Offal, Pork',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Ukraine, Belarus, Japan',
+        id: 39
+    },
+    {
+        title: 'Perm Krai',
+        subtitle: 'Volume of non-resource-based exports: $3581.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Potash Fertilizers, Nitrogen Fertilizers, Acyclic Alcohols, Plywood',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Brazil, China, USA, Kazakhstan',
+        id: 40
+    },
+    {
+        title: 'Primorsky Krai',
+        subtitle: 'Volume of non-resource-based exports: $1918.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Frozen Fish, Crustaceans, Diamonds, Soy',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Republic of Korea, China, Japan, Belgium',
+        id: 41
+    },
+    {
+        title: 'Pskov Oblast',
+        subtitle: 'Volume of non-resource-based exports: $133.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Pork, Cigarette Paper, Livestock Offal',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Vietnam, Estonia, Latvia',
+        id: 42
+    },
+    {
+        title: 'Republic of Adygea',
+        subtitle: 'Volume of non-resource-based exports: $28.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Transmission Equipment, Fermented Milk Products, Barley',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Abkhazia, Kazakhstan, Belarus',
+        id: 43
+    },
+    {
+        title: 'Altai Republic',
+        subtitle: 'Volume of non-resource-based exports: $27.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Organs and their Extracts, Sunflower Oil, Sugar',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Republic of Korea, Uzbekistan, Kyrgyzstan',
+        id: 44
+    },
+    {
+        title: 'Republic of Bashkortostan',
+        subtitle: 'Volume of non-resource-based exports: $1809,1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Turbo Engines and Gas Turbines, Sunflower Oil, Other Monocarboxylic Acids and their Derivatives, Synthetic Rubber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Kazakhstan, Finland, Iran',
+        id: 45
+    },
+    {
+        title: 'Republic of Buryatia',
+        subtitle: 'Volume of non-resource-based exports: $551.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Uncoated Kraft Paper and Kraft Cardboard, Brd Eggs in a Shell, Pork',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Ethiopia, Mali, Mongolia',
+        id: 46
+    },
+    {
+        title: 'Republic of Dagestan',
+        subtitle: 'Volume of non-resource-based exports: $43.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Стекло полированное, Corn, Barley, Tanned or Dressed Leather',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Iran, Kazakhstan, Ukraine, Azerbaijan',
+        id: 47
+    },
+    {
+        title: 'Republic of Ingushetia',
+        subtitle: 'Volume of non-resource-based exports: $3.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Other Aluminum Products, Wheat Flour, Radiators and Non-electric Air Heaters Made of Ferrous Metals',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Lithuania, Germany, Azerbaijan, Georgia',
+        id: 48
+    },
+    {
+        title: 'Republic of Kalmykia',
+        subtitle: 'Volume of non-resource-based exports: $0.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wool, Prepared Tobacco, Sheepmeat, Beer',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Iran, Vietnam, India',
+        id: 49
+    },
+    {
+        title: 'Republic of Karelia',
+        subtitle: 'Volume of non-resource-based exports: $628.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Uncoated Kraft Paper and Kraft Cardboard, Kraft Pulp, Frozen Fish',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Finland, Estonia, Netherlands, Great Britain',
+        id: 50
+    },
+    {
+        title: 'Komi Republic',
+        subtitle: 'Volume of non-resource-based exports: $609.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Plywood, Lumber, Uncoated Kraft Paper and Kraft Cardboard, Uncoated Graphic Paper and Cardboard',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Germany, USA, Latvia',
+        id: 51
+    },
+    {
+        title: 'Republic of Crimea',
+        subtitle: 'Volume of non-resource-based exports: $27.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Poultry Meat and Offal, Carbonates, Inorganic Dyes, Strong Alcoholic Beverages',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Ukraine, Belarus, China, Kazakhstan',
+        id: 52
+    },
+    {
+        title: 'Mari El Republic',
+        subtitle: 'Volume of non-resource-based exports: $254.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Special Vehicles, Parts of Radio and Television Equipment, Refrigeration Equipment, Uncoated Kraft Paper and Kraft Cardboard',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Egypt, Kazakhstan, Germany, Belarus',
+        id: 53
+    },
+    {
+        title: 'Republic of Mordovia',
+        subtitle: 'Volume of non-resource-based exports: $245.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Freight Cars, Plywood, Aluminum and its Alloys, Cable Products',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, USA, Japan',
+        id: 54
+    },
+    {
+        title: 'Sakha (Yakutia) Republic',
+        subtitle: 'Volume of non-resource-based exports: $87.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Diamonds, Turbo Engines and Gas Turbines, Precious and Semi-precious Stones Crumb, Lumber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belgium, Israel, Hong Kong, USA',
+        id: 55
+    },
+    {
+        title: 'Republic of North Ossetia-Alania',
+        subtitle: 'Volume of non-resource-based exports: $72.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Ethyl Alcohol, Corn, Hot-Rolled Bars of Non-alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Armenia, Georgia, Turkey, South Ossetia',
+        id: 56
+    },
+    {
+        title: 'Republic of Tatarstan',
+        subtitle: 'Volume of non-resource-based exports: $2783.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Synthetic Rubber, Sunflower Oil, Nitrogen Fertilizers, Polyethylene',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, Switzerland, Iran',
+        id: 57
+    },
+    {
+        title: 'Tuva Republic',
+        subtitle: 'Volume of non-resource-based exports: $0.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Oats, Construction Products Made of Plastics, Horses, Donkeys and their Crossbreeds, Residues of Grain and Legume Processing',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Mongolia, Kazakhstan, Germany',
+        id: 58
+    },
+    {
+        title: 'Republic of Khakassia',
+        subtitle: 'Volume of non-resource-based exports: $1161.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum and its Alloys, Ferroalloys, Aluminum Foil, Lumber',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Japan, USA, Netherlands',
+        id: 59
+    },
+    {
+        title: 'Rostov Oblast',
+        subtitle: 'Volume of non-resource-based exports: $6262.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Sunflower Oil, Barley, Grain Legumes',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Ukraine, Egypt, Iran',
+        id: 60
+    },
+    {
+        title: 'Ryazan Oblast',
+        subtitle: 'Volume of non-resource-based exports: $804.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Radar Equipment, Products Made of Bituminous Materials, Other Measuring and Control Devices, Multilayered and Porous Polymer Films and Sheets',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Algeria, Belarus, Ukraine, Poland',
+        id: 61
+    },
+    {
+        title: 'Samara Oblast',
+        subtitle: 'Volume of non-resource-based exports: $2280.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Ammonia, Nitrogen Fertilizers, Synthetic Rubber, Polyamides',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, Turkey, India',
+        id: 62
+    },
+    {
+        title: 'Saint Petersburg',
+        subtitle: 'Volume of non-resource-based exports: $5267.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Cargo and Passenger Vessels, Passenger Cars, Lumber, Other Specialized Vessels',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, China, Belarus, Lithuania',
+        id: 63
+    },
+    {
+        title: 'Saratov Oblast',
+        subtitle: 'Volume of non-resource-based exports: $1569.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Mixed Fertilizers, Sunflower Oil, Nitriles, Hot-Rolled Bars of Non-alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Brazil, Turkey, Iran, Kazakhstan',
+        id: 64
+    },
+    {
+        title: 'Sakhalin Oblast',
+        subtitle: 'Volume of non-resource-based exports: $582.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Crustaceans, Frozen Fish, Tugboats, Fish Fillets and Other Types of Meat',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Republic of Korea, Japan, China, Canada',
+        id: 65
+    },
+    {
+        title: 'Sverdlovsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $6507.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Refined Copper, Semi-finished Products of Non-alloy Steel, Copper Wire, Titanium Products',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, USA, Turkey, Kazakhstan',
+        id: 66
+    },
+    {
+        title: 'Sevastopol',
+        subtitle: 'Volume of non-resource-based exports: $3.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grape Wines, Frozen Fish, Nets and Netting, Unalloyed Sheet Metal with Coatings',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Ukraine, New Zealand, Belarus, Uzbekistan',
+        id: 67
+    },
+    {
+        title: 'Smolensk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $960.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nitrogen Fertilizers, Wheat, Mixed Fertilizers, Fiberboard',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belarus, Brazil, Turkey, Kazakhstan',
+        id: 68
+    },
+    {
+        title: 'Stavropol Krai',
+        subtitle: 'Volume of non-resource-based exports: $1000.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nitrogen Fertilizers, Mixed Fertilizers, Poultry Meat and Offal, Wheat',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Azerbaijan, Brazil, Turkey, China',
+        id: 69
+    },
+    {
+        title: 'Tambov Oblast',
+        subtitle: 'Volume of non-resource-based exports: $324.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Wheat, Pork, Poultry Meat and Offal, Sunflower Oil',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Syria, Belarus, Ukraine, Latvia',
+        id: 70
+    },
+    {
+        title: 'Tver Oblast',
+        subtitle: 'Volume of non-resource-based exports: $427.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Passenger Cars, Lumber, Aluminum and its Alloys, Trimmed Leather of Cattle and Horses',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Egypt, Kazakhstan, Belarus, Hungary',
+        id: 71
+    },
+    {
+        title: 'Tomsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $267.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Particle Board, Fiberboard, Pork',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Uzbekistan, Kazakhstan, China, Kyrgyzstan',
+        id: 72
+    },
+    {
+        title: 'Tula Oblast',
+        subtitle: 'Volume of non-resource-based exports: $2651.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Cast Iron, Nitrogen Fertilizers, Acyclic Alcohols, Other Metal Oxides',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'USA, UAE, Belarus, Estonia',
+        id: 73
+    },
+    {
+        title: 'Tyumen Oblast',
+        subtitle: 'Volume of non-resource-based exports: $895.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Polyethylene, Polypropylene, Acyclic Hydrocarbons, Plywood',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Turkey, Belgium, Netherlands',
+        id: 74
+    },
+    {
+        title: 'Udmurt Republic',
+        subtitle: 'Volume of non-resource-based exports: $391.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Special Vehicles, Passenger Cars, Hot-Rolled Bars of Non-alloy Steel, Bars and Shapes of Alloy Steel',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Uganda, Kazakhstan, Belarus, Uzbekistan',
+        id: 75
+    },
+    {
+        title: 'Ulyanovsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $478.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Special Vehicles, Passenger Cars, Trucks, Radioactive Materials',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Algeria, USA, Kazakhstan, Cambodia',
+        id: 76
+    },
+    {
+        title: 'Khabarovsk Krai',
+        subtitle: 'Volume of non-resource-based exports: $918.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Semi-finished Products of Non-alloy Steel, Lumber, Crustaceans, Frozen Fish',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Republic of Korea, The Philippines, Japan',
+        id: 77
+    },
+    {
+        title: 'Khanty–Mansi Autonomous Okrug – Yugra',
+        subtitle: 'Volume of non-resource-based exports: $140.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Wooden Construction Products, Particle Board, Turbo Engines and Gas Turbines',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Tajikistan, Egypt, China, Australia',
+        id: 78
+    },
+    {
+        title: 'Chelyabinsk Oblast',
+        subtitle: 'Volume of non-resource-based exports: $5142.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Unalloyed Hot-Rolled Sheet Metal, Copper Wire, Refined Copper, Unalloyed Sheet Metal with Coatings',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Turkey, Kazakhstan, Egypt, Uzbekistan',
+        id: 79
+    },
+    {
+        title: 'Chechen Republic',
+        subtitle: 'Volume of non-resource-based exports: $340.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Cargo and Passenger Vessels, Wheat, Barley, Corn',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Belgium, Turkey, Israel, Cyprus',
+        id: 80
+    },
+    {
+        title: 'Chuvash Republic',
+        subtitle: 'Volume of non-resource-based exports: $216.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Parts of Railway Equipment, Pesticides, Electrical Distribution Devices in Assemblies, Flour Confectionery, Bread',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Kazakhstan, Belarus, China, Uzbekistan',
+        id: 81
+    },
+    {
+        title: 'Chukotka Autonomous Okrug',
+        subtitle: 'Volume of non-resource-based exports: $10.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Crustaceans, Aluminum Powders, Frozen Fish, Containers',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Republic of Korea, Kazakhstan, Belarus, USA',
+        id: 82
+    },
+    {
+        title: 'Yamalo-Nenets Autonomous Okrug',
+        subtitle: 'Volume of non-resource-based exports: $5.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Other meat and Offal, Electric Generator Sets, Other Non-food Animal Products, Bones and Horn Pith',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'Lithuania, Finland, Turkey, Germany',
+        id: 83
+    },
+    {
+        title: 'Yaroslavl Oblast',
+        subtitle: 'Volume of non-resource-based exports: $717.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Carbon Black, Turbo Engines and Gas Turbines, Diesel Engines, Pneumatic Tires',
+        subtitleKey2: 'Leading export partners:',
+        subtitleArrays2: 'China, Belarus, Poland, India',
+        id: 84
+    }
+
+]
+
 const elementsList = document.querySelector('.elements__result')
 const elementsListWorld = document.querySelector('.elements__result-world')
 
@@ -1896,7 +2656,19 @@ $('#worldMap').on('click', function(e) {
         } 
     })
 })
-
+$('#mapRussianEng').on('click', function(e) {
+    $('.map__russian').removeClass('mapCenter')
+    $('.elements__info').remove()
+    const target = e.target
+    const targetId = target.id
+    initialCardsEng.forEach(item => {
+        $('#' + item.id).css('fill', '#1B75BB')
+        if(item.id == targetId) {
+            $('#' + targetId).css('fill', '#0054A5')
+            addCard(item, elementsList, '#element-template')
+        } 
+    })
+})
 function addCard(item ,elemList, elemTemplate) {
     const card = new Card(item, elemTemplate);
     const cardElements = card.createElement();
