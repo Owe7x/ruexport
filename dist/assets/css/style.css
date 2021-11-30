@@ -3096,4 +3096,10 @@ path {
 
 .speakers__img {
     max-width: 100%;
+    width: 100%;
+    height: 270px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 0px 0px;
+    object-position: 0px 0px;
 }
