@@ -2591,6 +2591,1080 @@ const initialCardsEng = [
 
 ]
 
+const initialCardsWorldEng = [
+    {
+        title: 'China',
+        subtitle: 'Volume of non-resource-based exports: $12703.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Lumber, Copper, Vegetable Oils',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 85
+    },
+    {
+        title: 'Kazakhstan',
+        subtitle: 'Volume of non-resource-based exports: $11400.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Plastic Products, Pipes',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 86
+    },
+    {
+        title: 'Belarus',
+        subtitle: 'Volume of non-resource-based exports: $9155.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Polymers, Plastic Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 87
+    },
+    {
+        title: 'Turkey',
+        subtitle: 'Volume of non-resource-based exports: $9123.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Rolled Steel, Aluminum, Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 88
+    },
+    {
+        title: 'USA',
+        subtitle: 'Volume of non-resource-based exports: $6462.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Cast Iron, Engineering Products, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 89
+    },
+    {
+        title: 'Germany',
+        subtitle: 'Volume of non-resource-based exports: $6462.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Engineering Products, Copper, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 90
+    },
+    {
+        title: 'Netherlands',
+        subtitle: 'Volume of non-resource-based exports: $4587.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nickel, Copper, Aluminum, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 91
+    },
+    {
+        title: 'Republic of Korea',
+        subtitle: 'Volume of non-resource-based exports: $3510.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fish, Crustaceans, Platinoids, Aluminum',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 92
+    },
+    {
+        title: 'Ukraine',
+        subtitle: 'Volume of non-resource-based exports: $3269.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Inorganic Compounds, Plastic Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 93
+    },
+    {
+        title: 'Uzbekistan',
+        subtitle: 'Volume of non-resource-based exports: $3181.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Lumber, Pipes',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 94
+    },
+    {
+        title: 'Belgium',
+        subtitle: 'Volume of non-resource-based exports: $3019.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Engineering Products, Rolled Steel, Diamonds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 95
+    },
+    {
+        title: 'Japan',
+        subtitle: 'Volume of non-resource-based exports: $2895.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Aluminum, Lumber, Ferroalloys',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 96
+    },
+    {
+        title: 'Poland',
+        subtitle: 'Volume of non-resource-based exports: $2792.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Organic Compounds, Polymers, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 97
+    },
+    {
+        title: 'India',
+        subtitle: 'Volume of non-resource-based exports: $2744.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Fertilizers, Vegetable Oils, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 98
+    },
+    {
+        title: 'Italy',
+        subtitle: 'Volume of non-resource-based exports: $2725.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Rolled Steel, Aluminum, Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 99
+    },
+    {
+        title: 'Egypt',
+        subtitle: 'Volume of non-resource-based exports: $2665.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Engineering Products, Copper, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 100
+    },
+    {
+        title: 'Finland',
+        subtitle: 'Volume of non-resource-based exports: $2592.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Nickel Matte, Organic Compounds, Fertilizers, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 101
+    },
+    {
+        title: 'Mexico',
+        subtitle: 'Volume of non-resource-based exports: $2527.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Fertilizers, Aluminum, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 102
+    },
+        {
+        title: 'Brazil',
+        subtitle: 'Volume of non-resource-based exports: $2469.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Steel, Rolled Steel, Polymers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 103
+    },    {
+        title: 'United Kingdom',
+        subtitle: 'Volume of non-resource-based exports: $2235.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Engineering Products, Silver, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 104
+    },
+    {
+        title: 'Iran',
+        subtitle: 'Volume of non-resource-based exports: $2195.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Vegetable Oils, Engineering Products, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 105
+    },
+    {
+        title: 'Algeria',
+        subtitle: 'Volume of non-resource-based exports: $2033.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Vegetable Oils, Grain, Printed Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 106
+    },
+    {
+        title: 'Taiwan (China)',
+        subtitle: 'Volume of non-resource-based exports: $2014.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Aluminum, Organic Compounds, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 107
+    },
+    {
+        title: 'Estonia',
+        subtitle: 'Volume of non-resource-based exports: $1781.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Engineering Products, Inorganic Compounds, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 108
+    },
+    {
+        title: 'Czech Republic',
+        subtitle: 'Volume of non-resource-based exports: $1615.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Steel, Inorganic Compounds, Synthetic Rubber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 109
+    },
+    {
+        title: 'Azerbaijan',
+        subtitle: 'Volume of non-resource-based exports: $v mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Lumber, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 110
+    },
+        {
+        title: 'Lithuania',
+        subtitle: 'Volume of non-resource-based exports: $1516.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Fertilizers, Polymers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 111
+    },
+    {
+        title: 'Latvia',
+        subtitle: 'Volume of non-resource-based exports: $1379.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Grain, Feed, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 112
+    },
+    {
+        title: 'UAE',
+        subtitle: 'Volume of non-resource-based exports: $1184.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Steel, Pharmaceutical Products, Diamonds ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 113
+    },
+    {
+        title: 'Bangladesh',
+        subtitle: 'Volume of non-resource-based exports: $1078.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Aluminum, Rolled Steel ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 114
+    },
+    {
+        title: 'Hong Kong (China)',
+        subtitle: 'Volume of non-resource-based exports: $1001.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Engineering Products, Fertilizers, Rolled Steel ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 115
+    },
+    {
+        title: 'France',
+        subtitle: 'Volume of non-resource-based exports: $937.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Inorganic Compounds, Lumber ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 116
+    },
+    {
+        title: 'Kyrgyzstan',
+        subtitle: 'Volume of non-resource-based exports: $923.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Engineering Products, Confectionery Products, Wood Slabs',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 117
+    },
+    {
+        title: 'Vietnam',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Meat, Direct Reduced Iron, Engineering Products ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 118
+    },
+    {
+        title: 'Armenia',
+        subtitle: 'Volume of non-resource-based exports: $829.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Aluminum, Grain, Confectionery Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 119
+    },
+    {
+        title: 'Denmark',
+        subtitle: 'Volume of non-resource-based exports: $821.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Pellets, Rolled Steel, Feed',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 120
+    },
+    {
+        title: 'Israel',
+        subtitle: 'Volume of non-resource-based exports: $774.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Grain, Lumber, Fertilizers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 121
+    },
+    {
+        title: 'Switzerland',
+        subtitle: 'Volume of non-resource-based exports: $758.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Platinoids, Fertilizers, Nickel Matte, Silver',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 122
+    },
+    {
+        title: 'Norway',
+        subtitle: 'Volume of non-resource-based exports: $751.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Vegetable Oils, Aluminum, Feed, Fish',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 123
+    },
+    {
+        title: 'Saudi Arabia',
+        subtitle: 'Volume of non-resource-based exports: $632.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Meat, Vegetable Oils, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 125
+    },
+    {
+        title: 'Mongolia',
+        subtitle: 'Volume of non-resource-based exports: $610.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Grain, Confectionery Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 126
+    },
+    {
+        title: 'Romania',
+        subtitle: 'Volume of non-resource-based exports: $593.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Rolled Steel, Engineering Products, Synthetic Rubber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 127
+    },
+    {
+        title: 'Turkkmenistan',
+        subtitle: 'Volume of non-resource-based exports: $580.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Pipes, Rolled Steel, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 128
+    },
+    {
+        title: 'Tajikistan',
+        subtitle: 'Volume of non-resource-based exports: $570.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Rolled Steel, Lumber, Vegetable Oils',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 129
+    },
+    {
+        title: 'Serbia',
+        subtitle: 'Volume of non-resource-based exports: $525.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Prepared Tobacco, Polymers, Fertilizers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 130
+    },
+    {
+        title: 'Sweden',
+        subtitle: 'Volume of non-resource-based exports: $519.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Inorganic Compounds, Tires, Fertilizers, Aluminum',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 131
+    },
+    {
+        title: 'Greece',
+        subtitle: 'Volume of non-resource-based exports: $504.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum, Grain, Fertilizers, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 132
+    },
+    {
+        title: 'Syria',
+        subtitle: 'Volume of non-resource-based exports: $499.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Printed Products, Grain, Vegetable Oils, Grain Legumes',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 133
+    },
+    {
+        title: 'Spain',
+        subtitle: 'Volume of non-resource-based exports: $497.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Direct Reduced Iron, Inorganic Compounds, Feed, Synthetic Rubber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 134
+    },
+    {
+        title: 'Georgia',
+        subtitle: 'Volume of non-resource-based exports: $464,7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Vegetable Oils, Household Chemicals',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 135
+    },
+    {
+        title: 'Moldova',
+        subtitle: 'Volume of non-resource-based exports: $v mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Fertilizers, Pharmaceutical Products, Plastic Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 136
+    },
+    {
+        title: 'Kuwait',
+        subtitle: 'Volume of non-resource-based exports: $440.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Copper Wire, Copper, Pharmaceutical Products, Pipes',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 137
+    },
+    {
+        title: 'Canada',
+        subtitle: 'Volume of non-resource-based exports: $411.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Fertilizers, Tires, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 138
+    },
+    {
+        title: 'Thailand',
+        subtitle: 'Volume of non-resource-based exports: $408.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum, Aluminum, Fertilizers, Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 139
+    },
+    {
+        title: 'Nigeia',
+        subtitle: 'Volume of non-resource-based exports: $400.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Fish, Fertilizers, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 140
+    },
+    {
+        title: 'Bulgaria',
+        subtitle: 'Volume of non-resource-based exports: $357.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum, Engineering Products, Fertilizers, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 141
+    },
+    {
+        title: 'Hungary',
+        subtitle: 'Volume of non-resource-based exports: $351.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Synthetic Rubber, Inorganic Compounds, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 142
+    },
+    {
+        title: 'Slovakia',
+        subtitle: 'Volume of non-resource-based exports: $325.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Organic Compounds, Synthetic Rubber, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 143
+    },
+    {
+        title: 'The Philippines',
+        subtitle: 'Volume of non-resource-based exports: $308.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Paper and Cardboard, Engineering Products, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 144
+    },
+    {
+        title: 'Argentina',
+        subtitle: 'Volume of non-resource-based exports: $305.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Pharmaceutical Products, Fertilizers, Rolled Steel, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 145
+    },
+    {
+        title: 'Kenya',
+        subtitle: 'Volume of non-resource-based exports: $286.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Aluminum, Steel, Fertilizers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 146
+    },
+    {
+        title: 'Morocco',
+        subtitle: 'Volume of non-resource-based exports: $281.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Inorganic Compounds, Aluminum, Grain, Fertilizers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 147
+    },
+    {
+        title: 'Uganda',
+        subtitle: 'Volume of non-resource-based exports: $264.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Paper and Cardboard, Продукция ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 148
+    },
+    {
+        title: 'Tunisia',
+        subtitle: 'Volume of non-resource-based exports: $259.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Inorganic Compounds, Engineering Products, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 149
+    },
+    {
+        title: 'Indonesia',
+        subtitle: 'Volume of non-resource-based exports: $258.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Steel, Aluminum, Fish',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 150
+    },
+    {
+        title: 'Pakistan',
+        subtitle: 'Volume of non-resource-based exports: $254,7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Grain Legumes, Rolled Steel, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 151
+    },
+ 
+    {
+        title: 'Peru',
+        subtitle: 'Volume of non-resource-based exports: $253.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Engineering Products, Grain, Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 152
+    },
+    {
+        title: 'Tanzania',
+        subtitle: 'Volume of non-resource-based exports: $204.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum, Grain, Fertilizers, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 153
+    },
+ 
+    {
+        title: 'Sudan',
+        subtitle: 'Volume of non-resource-based exports: $204.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Grain, Fat and Oil Products, Pharmaceutical Products, Engineering Products ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 154
+    },    {
+        title: 'Libya',
+        subtitle: 'Volume of non-resource-based exports: $201.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Cigarettes, Grain, Printed Products, Confectionery Products ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 155
+    },
+    {
+        title: 'Cyprus',
+        subtitle: 'Volume of non-resource-based exports: $195.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Aluminum, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 156
+    },
+    {
+        title: 'Portugal',
+        subtitle: 'Volume of non-resource-based exports: $190.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Plywood, Engineering Products, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 157
+    },
+    {
+        title: 'Malaysia',
+        subtitle: 'Volume of non-resource-based exports: $181.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Aluminum, Engineering Products, Vegetable Oils',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 158
+    },
+    {
+        title: 'Yemen',
+        subtitle: 'Volume of non-resource-based exports: $178.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Printed Products, Grain, Engineering Products, Flour',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 159
+    },
+    {
+        title: 'South Africa',
+        subtitle: 'Volume of non-resource-based exports: $176.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Grain, Polymers, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 160
+    },
+    {
+        title: 'Columbia',
+        subtitle: 'Volume of non-resource-based exports: $171.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Fertilizers, Engineering Products, Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 161
+    },
+    {
+        title: 'Austria',
+        subtitle: 'Volume of non-resource-based exports: $169.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Lumber, Plywood, Ferroalloys',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 162
+    },
+    {
+        title: 'Jordan',
+        subtitle: 'Volume of non-resource-based exports: $161.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Steel, Organic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 163
+    },
+    {
+        title: 'Croatia',
+        subtitle: 'Volume of non-resource-based exports: $155.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Aluminum, Copper, Rolled Aluminum Products, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 164
+    },
+    {
+        title: 'Singapore',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Lead, Household Chemicals, Silver',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 165
+    },
+    {
+        title: 'Abkhazia',
+        subtitle: 'Volume of non-resource-based exports: $153.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Pharmaceutical Products, Beverages, Furniture',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 166
+    },
+    {
+        title: 'Australia',
+        subtitle: 'Volume of non-resource-based exports: $151.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Woodwork, Inorganic Compounds, Engineering Products ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 167
+    },
+    {
+        title: 'Oman',
+        subtitle: 'Volume of non-resource-based exports: $145.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Direct Reduced Iron, Grain, Engineering Products, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 168
+    },
+    {
+        title: 'Ecuador',
+        subtitle: 'Volume of non-resource-based exports: $139.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Paper and Cardboard, Inorganic Compounds, Polymers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 169
+    },
+    {
+        title: 'Ireland',
+        subtitle: 'Volume of non-resource-based exports: $137.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Engineering Products, Feed, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 170
+    },
+    {
+        title: 'Senegal',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Grain, Fertilizers, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 171
+    },
+    {
+        title: 'Ghana',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Grain, Rolled Steel, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 172
+    },
+    {
+        title: 'Ethiopia',
+        subtitle: 'Volume of non-resource-based exports: 1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Rolled Steel, Продукция',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 173
+    },
+    {
+        title: 'Slovenia',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Organic Compounds, Engineering Products, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 174
+    },
+    {
+        title: 'Cameroon',
+        subtitle: 'Volume of non-resource-based exports: $107,8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Grain, Fish, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 175
+    },
+    {
+        title: 'Ivory Coast',
+        subtitle: 'Volume of non-resource-based exports: $106.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Grain, Fish, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 176
+    },
+    {
+        title: 'Honduras',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Steel, Malt',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 177
+    },
+    {
+        title: 'Myanmar',
+        subtitle: 'Volume of non-resource-based exports: $104.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 178
+    },
+    {
+        title: 'Guatemala',
+        subtitle: 'Volume of non-resource-based exports: $103.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Pharmaceutical Products, Fertilizers, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 179
+    },
+    {
+        title: 'Iraq',
+        subtitle: 'Volume of non-resource-based exports: $99.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Lumber, Rolled Steel, Grain, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 180
+    },
+    {
+        title: 'Lebanon',
+        subtitle: 'Volume of non-resource-based exports: $98.5 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Vegetable Oils, Grain, Lumber, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 181
+    },
+    {
+        title: 'Democratic Republic of the Congo',
+        subtitle: 'Volume of non-resource-based exports: $82.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Pharmaceutical Products, Grain, Meat',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 182
+    },
+    {
+        title: 'Nicaragua',
+        subtitle: 'Volume of non-resource-based exports: $82.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Grain, Engineering Products, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 183
+    },
+    {
+        title: 'Dominican Republic',
+        subtitle: 'Volume of non-resource-based exports: $80.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Rolled Steel, Fertilizers, Malt',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 184
+    },
+    {
+        title: 'Mali',
+        subtitle: 'Volume of non-resource-based exports: $75.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Fertilizers',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 185
+    },
+    {
+        title: 'Venezuela',
+        subtitle: 'Volume of non-resource-based exports: $74.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Pharmaceutical Products, Fertilizers, Engineering Products, Ferrous Metal Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 186
+    },
+    {
+        title: 'Albania',
+        subtitle: 'Volume of non-resource-based exports: $73.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Grain, Vegetable Oils, Lumber',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 187
+    },
+    {
+        title: 'Republic of the Congo',
+        subtitle: 'Volume of non-resource-based exports: $71.7 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Clothes',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 188
+    },
+    {
+        title: 'Chile',
+        subtitle: 'Volume of non-resource-based exports: $68.1 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fish, Fertilizers, Wood Slabs, Paper and Cardboard',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 189
+    },
+    {
+        title: 'Angola',
+        subtitle: 'Volume of non-resource-based exports: $65.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Printed Products, Meat',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 190
+    },
+    {
+        title: 'Cuba',
+        subtitle: 'Volume of non-resource-based exports: $65.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Vegetable Oils, Engineering Products, Ferrous Metal Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 191
+    },
+    {
+        title: 'El Salvador',
+        subtitle: 'Volume of non-resource-based exports: $52.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Rolled Steel, Fertilizers, Malt',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 192
+    },
+    {
+        title: 'Afghanistan',
+        subtitle: 'Volume of non-resource-based exports: $51.2 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Vegetable Oils, Lumber, Engineering Products, Confectionery Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 193
+    },
+    {
+        title: 'Rwanda',
+        subtitle: 'Volume of non-resource-based exports: $47.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Printed Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 194
+    },
+    {
+        title: 'Sri Lanka',
+        subtitle: 'Volume of non-resource-based exports: $1111 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Paper and Cardboard, Grain, Inorganic Compounds, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 195
+    },
+    {
+        title: 'Botswana',
+        subtitle: 'Volume of non-resource-based exports: $40.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Diamonds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 196
+    },
+    {
+        title: 'Bosnia and Herzegovina',
+        subtitle: 'Volume of non-resource-based exports: $40.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Rolled Steel, Engineering Products, Polymers, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 197
+    },
+    {
+        title: 'Bolivia',
+        subtitle: 'Volume of non-resource-based exports: $39.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Mechanical Engineering, Printed Products, Pharmaceutical Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 198
+    },
+    {
+        title: 'Uruguay',
+        subtitle: 'Volume of non-resource-based exports: $39.4 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Inorganic Compounds',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 199
+    },
+    {
+        title: 'Mozambique',
+        subtitle: 'Volume of non-resource-based exports: $36.3 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Grain, Vegetable Oils',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 200
+    },
+    {
+        title: 'Guinea',
+        subtitle: 'Volume of non-resource-based exports: $34.0 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Engineering Products, Grain, Ferrous Metal Products, Rails ',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 201
+    },
+    {
+        title: 'Benin',
+        subtitle: 'Volume of non-resource-based exports: $28.8 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Fertilizers, Meat, Rolled Steel, Grain',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 202
+    },
+    {
+        title: 'Djibouti',
+        subtitle: 'Volume of non-resource-based exports: $26.9 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Steel, Engineering Products',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 203
+    },
+    {
+        title: 'Togo',
+        subtitle: 'Volume of non-resource-based exports: $26.6 mln',
+        subtitleKey: 'Key commodities:',
+        subtitleArrays: 'Organic Compounds, Grain, Rolled Steel',
+        subtitleKey2: '',
+        subtitleArrays2: '',
+        id: 204
+    },
+]
+
 const elementsList = document.querySelector('.elements__result')
 const elementsListWorld = document.querySelector('.elements__result-world')
 
@@ -2666,6 +3740,19 @@ $('#mapRussianEng').on('click', function(e) {
         if(item.id == targetId) {
             $('#' + targetId).css('fill', '#0054A5')
             addCard(item, elementsList, '#element-template')
+        } 
+    })
+})
+$('#worldMapEng').on('click', function(e) {
+    $('.map__world').removeClass('mapCenter')
+    $('.elements__info-world').remove()
+    const target = e.target
+    const targetId = target.id
+    initialCardsWorldEng.forEach(item => {
+        $('#' + item.id).css('fill', '#1B75BB')
+        if(item.id == targetId) {
+            $('#' + targetId).css('fill', '#0054A5')
+            addCard(item, elementsListWorld , '#element-template-world')
         } 
     })
 })
