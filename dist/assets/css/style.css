@@ -2578,6 +2578,12 @@ body {
     }
 }
 
+.map__subtitle {
+    font-size: 16px;
+    line-height: 120%;
+    color: #8C8C8C;
+}
+
 .map__title {
     font-family: 'Circe';
     font-style: normal;
@@ -2586,6 +2592,7 @@ body {
     line-height: 140%;
     text-transform: uppercase;
     color: #002E5E;
+    margin-bottom: 4px;
 }
 
 .map__header {
