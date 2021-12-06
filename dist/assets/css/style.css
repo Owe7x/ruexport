@@ -828,6 +828,16 @@ body {
     }
 }
 
+.header__group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+
 .header__container {
     display: -ms-flexbox;
     display: flex;
@@ -892,6 +902,118 @@ body {
 
 .header__img_eng {
     max-height: 48px;
+}
+
+.menu-burger__header {
+    position: relative;
+    z-index: 3;
+    width: 27px;
+    height: 35px;
+    display: none;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-burger__header {
+        display: block;
+    }
+}
+
+.menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: #002E5E;
+    margin: 0 auto;
+}
+
+.menu-burger__header span {
+    top: 16px;
+}
+
+.menu-burger__header:after, .menu-burger__header:before {
+    content: '';
+}
+
+.menu-burger__header:after {
+    bottom: 10px;
+}
+
+.menu-burger__header:before {
+    top: 10px;
+}
+
+.menu-burger__header.open-menu span {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu-burger__header.open-menu:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 17px;
+    transition: 0.4s;
+}
+
+.menu-burger__header.open-menu:after {
+    -webkit-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+    bottom: 16px;
+    transition: 0.4s;
+}
+
+.header-content__mobile {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+    z-index: 2;
+    display: none;
+}
+
+@media screen and (max-width: 520px) {
+    .header-content__mobile {
+        top: 61px;
+    }
+}
+
+.open-menu {
+    display: block;
+}
+
+.header-ul__mobile {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 520px) {
+    .header-ul__mobile {
+        padding-left: 40px;
+    }
+}
+
+.header-ul__mobile a {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.header__link_mobile {
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.preheader__item-mobile {
+    text-align: center;
+}
+
+@media screen and (max-width: 520px) {
+    .preheader__item-mobile {
+        text-align: left;
+    }
 }
 
 .checkbox-ios {
@@ -3174,6 +3296,12 @@ path {
 @media screen and (max-width: 1024px) {
     .preheader {
         padding: 16px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .preheader {
+        display: none;
     }
 }
 
