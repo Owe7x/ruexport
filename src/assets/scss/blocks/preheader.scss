@@ -1,0 +1,16 @@
+.preheader {
+    background: #F3F5F8;
+    padding: 16px 0;
+}
+.preheader__list {
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.preheader__link {
+    color: #000;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+}

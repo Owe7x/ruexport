@@ -1,12 +1,12 @@
 .gallery {
     max-width: 1140px;
-    margin: 282px auto 0px;
+    margin: 141px auto 0px;
     font-family: 'Circe';
     @include breakpoint($bp-1600) {
         padding: 0px;
     } 
     @include breakpoint($bp-1240) {
-        margin: 140px auto 0px;
+        margin: 70px auto 0px;
     }
     @include breakpoint($bp-1024) {
         padding: 0px 0px 51px;

@@ -71,3 +71,29 @@ $('.gallery__slider').slick({
     },
   ]
 });
+
+
+$("#about-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#about")
+});
+$("#programm-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#architecture")
+});
+$("#speakers-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#speakers")
+});
+$("#gallery-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#gallery")
+});
+$("#partners-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#partner")
+});
+function ScrollTop (scrollTo) {
+  var top = $(scrollTo).offset().top;
+  $('body,html').animate({scrollTop: top}, 1500);
+}

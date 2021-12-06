@@ -2797,7 +2797,7 @@ path {
 
 .gallery {
     max-width: 1140px;
-    margin: 282px auto 0px;
+    margin: 141px auto 0px;
     font-family: 'Circe';
 }
 
@@ -2809,7 +2809,7 @@ path {
 
 @media screen and (max-width: 1240px) {
     .gallery {
-        margin: 140px auto 0px;
+        margin: 70px auto 0px;
     }
 }
 
@@ -3152,4 +3152,25 @@ path {
     .speakers__img {
         height: 200px;
     }
+}
+
+.preheader {
+    background: #F3F5F8;
+    padding: 16px 0;
+}
+
+.preheader__list {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.preheader__link {
+    color: #000;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
 }
