@@ -3159,6 +3159,24 @@ path {
     padding: 16px 0;
 }
 
+@media screen and (max-width: 1440px) {
+    .preheader {
+        padding: 16px 162px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .preheader {
+        padding: 16px 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .preheader {
+        padding: 16px 40px;
+    }
+}
+
 .preheader__list {
     display: -ms-flexbox;
     display: flex;

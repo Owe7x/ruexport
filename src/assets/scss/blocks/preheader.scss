@@ -1,6 +1,18 @@
 .preheader {
     background: #F3F5F8;
     padding: 16px 0;
+    @include breakpoint($bp-1440) {
+        padding: 16px 162px;
+    }
+    @include breakpoint($bp-1360) {
+        padding: 16px 80px;
+    }
+    @include breakpoint($bp-1024) {
+        padding: 16px 40px;
+    }
+    @include breakpoint($bp-768) {
+        display: none;
+    }
 }
 .preheader__list {
     display: flex;
