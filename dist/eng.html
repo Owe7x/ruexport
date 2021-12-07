@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css?v=123123">
     
     <!-- Useful meta tags -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -66,24 +66,72 @@
                         
                     <img src="assets/images/header-logo-2_eng 1.svg" alt="" class="header__img header__img_eng header__img-mobile">
                 </div>
-                <div class="header__checkbox">
-                    <p class="header__chekbox-language header__chekbox-language_opaciy">
-                        РУ
-                    </p>
-                    <label class="checkbox-ios">
-                        <input type="checkbox" id="checkbox" checked>
-                        <span class="checkbox-ios-switch"></span>
-                    </label>
-                    <p class="header__chekbox-language ">
-                        ENG
-                    </p>
+                <div class="header__group">
+                    <div class="header__checkbox">
+                        <p class="header__chekbox-language header__chekbox-language_opaciy">
+                            РУ
+                        </p>
+                        <label class="checkbox-ios">
+                            <input type="checkbox" id="checkbox" checked>
+                            <span class="checkbox-ios-switch"></span>
+                        </label>
+                        <p class="header__chekbox-language ">
+                            ENG
+                        </p>
+                    </div>
+                    <div class="menu-burger__header">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header-content__mobile">
+                    <ul class="header-ul__mobile">
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="" id="about-click-mobile" class="preheader__link">About the forum</a>
+                        </li>
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="" id="programm-click-mobile" class="preheader__link">Program</a>
+                        </li>
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="" id="speakers-click-mobile" class="preheader__link">Speakers</a>
+                        </li>
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="" id="gallery-click-mobile" class="preheader__link">Photo exhibition</a>
+                        </li>
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="" id="partners-click-mobile" class="preheader__link">Partners</a>
+                        </li>
+                        <li class="preheader__item preheader__item-mobile">
+                            <a href="https://madeinrussia.accredcenter.ru/personal/" class="preheader__link">Personal account</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </header>
 
 
-                
-                <section class="main main_eng">
+                <section class="preheader">
+                    <ul class="preheader__list">
+                        <li class="preheader__item">
+                            <a href="" id="about-click" class="preheader__link">About the forum</a>
+                        </li>
+                        <li class="preheader__item">
+                            <a href="" id="programm-click" class="preheader__link">Program</a>
+                        </li>
+                        <li class="preheader__item">
+                            <a href="" id="speakers-click" class="preheader__link">Speakers</a>
+                        </li>
+                        <li class="preheader__item">
+                            <a href="" id="gallery-click" class="preheader__link">Photo exhibition</a>
+                        </li>
+                        <li class="preheader__item">
+                            <a href="" id="partners-click" class="preheader__link">Partners</a>
+                        </li>
+                        <li class="preheader__item">
+                            <a href="https://madeinrussia.accredcenter.ru/personal/" class="preheader__link">Personal account</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="main main_eng" id="about">
                     <div class="main__container main__container_eng">
                         <div class="main__container-block">
                             <img src="assets/images/header-mobile-logo_eng.png" alt="" class="main__logo-mobile">
@@ -766,23 +814,23 @@
                         </div>
                     </section>
                 </div>
-                <section class="speakers">
+                <section class="speakers" id="speakers">
                     <div class="speakers__container">
                         <div class="speakers__title">
-                            спикеры
+                            SPEAKERS
                         </div>
                         <div class="speakers__blocks">
                             <div class="speakers__block">
                                 <img src="assets/images/Петров.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Алексей Петров
+                                        ALEXEY PETROV
                                     </h4>
                                     <p class="speakers__block-subtitle">
                                         
                                     </p>
                                     <p class="speakers__block-text">
-                                        Генеральный директор АНО «Дирекция международных транспортных коридоров»
+                                        Director General of Directorate of International Transport Corridors ANO
                                     </p>
                                 </div>
                             </div>
@@ -790,62 +838,23 @@
                                 <img src="assets/images/Шохин.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Александр Шохин
+                                        ALEXANDER SHOKHIN
                                     </h4>
                                     <p class="speakers__block-subtitle">
                                     </p>
                                     <p class="speakers__block-text">
-                                        Президент Российского союза промышленников и предпринимателей
+                                        President of the Russian Union of Industrialists and Entrepreneurs
                                     </p>
                                 </div>
                             </div>
                             <div class="speakers__block">
-                                <img src="assets/images/Умурзаков.jpg" alt="" class="speakers__img">
+                                <img src="assets/images/Т.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Сардор Умурзаков 
+                                        TATIANA SATYUKOVA
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Заместитель Премьер-министра по вопросам инвестиций и внешнеэкономических связей – Министр инвестиций и внешней торговли Республики Узбекистан
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="speakers__block">
-                                <img src="assets/images/Н.Н. Хасилов.jpg" alt="" class="speakers__img">
-                                <div class="speakers__block-info">
-                                    <h4 class="speakers__block-title">
-                                        Хуснутдин Хасилов
-                                    </h4>
-                                    <p class="speakers__block-text">
-                                        И.о. председателя Правления АО «Узбекистон темир йуллари»
-                                    </p>
-                                    <p class="speakers__block-text">
-                
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="speakers__block">
-                                <img src="assets/images/Т.Сатюкова.jpg" alt="" class="speakers__img">
-                                <div class="speakers__block-info">
-                                    <h4 class="speakers__block-title">
-                                        Татьяна Сатюкова
-                                    </h4>
-                                    <p class="speakers__block-text">
-                                        Управляющий директор, старший банкир Управления торгового финансирования ПАО «Сбербанк»
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="speakers__block">
-                                <img src="assets/images/Фомина Елена.jpg" alt="" class="speakers__img">
-                                <div class="speakers__block-info">
-                                    <h4 class="speakers__block-title">
-                                        Елена Фомина 
-                                    </h4>
-                                    <p class="speakers__block-text">
-                                        Руководитель Департамента кредитования  АО «Альфа-банк»
-                                    </p>
-                                    <p class="speakers__block-text">
-                                        
+                                        Managing Director, Senior Banker of the Trade Finance Department of Sberbank PJSC
                                     </p>
                                 </div>
                             </div>
@@ -853,39 +862,21 @@
                                 <img src="assets/images/Селиверстов_фото.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Сергей Селиверстов
+                                        SERGEY SELIVERSTOV
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Директор по правовому сопровождению, Административно-хозяйственной деятельности и судебной работы Группы РЭЦ
+                                        Director of Legal Support, Executive Management and Judicial Work of the REC Group
                                     </p>
                                 </div>
                             </div>
                             <div class="speakers__block">
-                                <img src="assets/images/Гудков ФОТО.png" alt="" class="speakers__img">
+                                <img src="assets/images/Гудков ФОТО.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Иван Гудков
+                                        IVAN GUDKOV
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Вице-президент по правовым вопросам
-                                    </p>
-                                    <p class="speakers__block-text">
-                                        Группы Российского экспортного центра
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="speakers__block">
-                                <img src="assets/images/фото Джонатан Хайнз.jpg" alt="" class="speakers__img">
-                                <div class="speakers__block-info">
-                                    <h4 class="speakers__block-title">
-                                        Джонатан Хайнз
-                                    </h4>
-                                    <p class="speakers__block-text">
-                                        Старший советник
-                                    </p>
-                                    <p class="speakers__block-text">
-                                        международной юридической компании «Dentons», 
-                                        член Президиума МКАС при ТПП РФ
+                                        Vice President for Legal Issues of the the Russian Export Center Group
                                     </p>
                                 </div>
                             </div>
@@ -893,13 +884,11 @@
                                 <img src="assets/images/Фото Дмитрия Маренкова.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Дмитрий Маренков
+                                        DMITRY MARENKOV
                                     </h4>
                                     <p class="speakers__block-text">
-                                        LLM, FCIArb, in-house юрист (Германия)
-                                    </p>
-                                    <p class="speakers__block-text">
-                                        арбитр МКАС, член редсовета журнала «Коммерческий арбитраж»
+                                        LLM, FCIArb, in-house lawyer (Germany) ICAC
+                                        arbitrator, member of the Editorial Board of the Commercial Arbitration journal
                                     </p>
                                 </div>
                             </div>
@@ -907,28 +896,23 @@
                                 <img src="assets/images/Фото Жунуса Джакупова.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Жунус Джакупов
+                                        ZHUNUS DZHAKUPOV
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Советник Президента ПАО «Транснефть»
-                                    </p>
-                                    <p class="speakers__block-text">
-                                        Заместитель председателя Правления Ассоциации Юристов России
+                                        Advisor to the President of PJSC Transneft
+                                        Deputy Chairman of the Board of the Association of Lawyers of Russia
+                
                                     </p>
                                 </div>
                             </div>
                             <div class="speakers__block">
-                                <img src="assets/images/Фото-Костина-А.А.jpg" alt="" class="speakers__img">
+                                <img src="assets/images/Фото-Костина-А.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Алексей Костин
+                                        ALEXEY KOSTIN
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Председатель 
-                                        Международного коммерческого арбитражного суда 
-                                        и Морской арбитражной комиссии 
-                                        при Торгово-промышленной палате 
-                                        Российской Федерации
+                                        Chairman of the International Commercial Arbitration Court and the Maritime Arbitration Commission at the Chamber of Commerce and Industry of the Russian Federation
                                     </p>
                                     <p class="speakers__block-text">
                                         
@@ -936,15 +920,13 @@
                                 </div>
                             </div>
                             <div class="speakers__block">
-                                <img src="assets/images/Фото С.Н. Катырина.jpg" alt="" class="speakers__img">
+                                <img src="assets/images/Катырин Сергей Николаевич.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Сергей Катырин
+                                        SERGEY KATYRIN
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Президент 
-                                        Торгово-промышленной палаты 
-                                        Российской Федерации
+                                        President of the Chamber of Commerce and Industry of the Russian Federation
                                     </p>
                                     <p class="speakers__block-text">
                                         
@@ -952,15 +934,13 @@
                                 </div>
                             </div>
                             <div class="speakers__block">
-                                <img src="assets/images/фото В.В. Чубарова.jpg" alt="" class="speakers__img">
+                                <img src="assets/images/фото В.В.jpg" alt="" class="speakers__img">
                                 <div class="speakers__block-info">
                                     <h4 class="speakers__block-title">
-                                        Вадим Чубаров
+                                        VADIM CHUBAROV
                                     </h4>
                                     <p class="speakers__block-text">
-                                        Вице-президент  
-                                        Торгово-промышленной палаты 
-                                        Российской Федерации                    
+                                        Vice-President of the Chamber of Commerce and Industry of the Russian Federation                 
                                     </p>
                                     <p class="speakers__block-text">
                                         
@@ -1568,413 +1548,420 @@
                             </div>                  
                         </div>
                     </section> -->
-                    <section class="gallery">
-                        <h2 class="gallery__name">ФОТОВЫСТАВКА</h2>
+                    <section class="gallery" id="gallery">
+                        <h2 class="gallery__name">PHOTO EXHIBITION</h2>
                         <div class="gallery__slider">
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-1.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Новомет-Пермь»</h3>
-                                    <p class="gallery__subtitle">Пермский край</p>
+                                    <h3 class="gallery__title">Novomet-Perm JSC</h3>
+                                    <p class="gallery__subtitle">Perm Krai</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере промышленности» в номинации «Крупный бизнес»
+                                        1st place in the nomination "Exporter of the Year in industry" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-2.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Арнест»</h3>
-                                    <p class="gallery__subtitle">Ставропольский край</p>
+                                    <h3 class="gallery__title">Arnest JSC </h3>
+                                    <p class="gallery__subtitle">Stavropol Krai</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере промышленности» в номинации «Крупный бизнес»
+                                        2nd place in the nomination "Exporter of the Year in industry" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-3.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Улан-Удэнский авиационный завод»</h3>
-                                    <p class="gallery__subtitle">Республика Бурятия</p>
+                                    <h3 class="gallery__title">Ulan-Ude Aviation Plant JSC </h3>
+                                    <p class="gallery__subtitle">Republic of Buryatia</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере промышленности» в номинации «Крупный бизнес»
+                                        3rd place in the nomination "Exporter of the Year in industry" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-4.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Техносонус-Центр»</h3>
-                                    <p class="gallery__subtitle">Владимирская область</p>
+                                    <h3 class="gallery__title">Technosonus-Center LLC</h3>
+                                    <p class="gallery__subtitle">Vladimir oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере промышленности» в номинации «МСП»
+                                        1st place in the nomination "Exporter of the Year in industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-37.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ИП Маричев С.Н.</h3>
-                                    <p class="gallery__subtitle">Омская область</p>
+                                    <h3 class="gallery__title">IE Marichev S.N.</h3>
+                                    <p class="gallery__subtitle">Omsk oblast</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере промышленности» в номинации «МСП»
+                                        2nd place in the nomination "Exporter of the Year in industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-6.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ЗАО «Тюменьмашзавод»</h3>
-                                    <p class="gallery__subtitle">Тюменская область</p>
+                                    <h3 class="gallery__title">Tyumenskii Mashinostroitel'nyi Zavod JSC</h3>
+                                    <p class="gallery__subtitle">Tyumen oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере промышленности» в номинации «МСП»
+                                        3rd place in the nomination "Exporter of the Year in industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-41.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Жировой комбинат»</h3>
-                                    <p class="gallery__subtitle">Свердловская область</p>
+                                    <h3 class="gallery__title">Zhirovoy Kombinat JSC</h3>
+                                    <p class="gallery__subtitle">Sverdlovsk oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «Крупный бизнес»
+                                        1st place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-8.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Новосибирскхлебопродукт»</h3>
-                                    <p class="gallery__subtitle">Новосибирская область</p>
+                                    <h3 class="gallery__title">Novosibirskhleboprodukt JSC</h3>
+                                    <p class="gallery__subtitle">Novosibirsk oblast</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «Крупный бизнес»
+                                        2nd place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-9.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Пасифик краб»</h3>
-                                    <p class="gallery__subtitle">Приморский край</p>
+                                    <h3 class="gallery__title">Pacific Crab LLC (part of the Russian Crab Company Group)</h3>
+                                    <p class="gallery__subtitle">Primorsky Krai</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «Крупный бизнес»
+                                        3rd place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-10.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Сигма»</h3>
-                                    <p class="gallery__subtitle">Челябинская область</p>
+                                    <h3 class="gallery__title">Sigma LLC</h3>
+                                    <p class="gallery__subtitle">Chelyabinsk oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «МСП»
+                                        1st place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-11.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Эко-фабрика Сибирский кедр»</h3>
-                                    <p class="gallery__subtitle">Томская область</p>
+                                    <h3 class="gallery__title">Eco-factory Siberian pine LLC </h3>
+                                    <p class="gallery__subtitle">Tomsk oblast</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «МСП»
+                                        2nd place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-12.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Рыбные Мануфактуры Мурманск»</h3>
-                                    <p class="gallery__subtitle">Мурманская область</p>
+                                    <h3 class="gallery__title">Fish Manufactories Murmansk LLC </h3>
+                                    <p class="gallery__subtitle">Murmansk oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере агропромышленного комплекса» в номинации «МСП»
+                                        3rd place in the nomination "Exporter of the year in the sphere of agro-industrial complex" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-13.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Рускон»</h3>
-                                    <p class="gallery__subtitle">Краснодарский край</p>
+                                    <h3 class="gallery__title">Ruskon LLC</h3>
+                                    <p class="gallery__subtitle">Krasnodar Krai</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере услуг» в номинации «Крупный бизнес»
+                                        1st place in the nomination "Exporter of the Year in the service industry" in the category "Big Business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-14.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «РЖД Логистика»</h3>
-                                    <p class="gallery__subtitle">Москва</p>
+                                    <h3 class="gallery__title">Russian Railways Logistics JSC </h3>
+                                    <p class="gallery__subtitle">Moscow</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере услуг» в номинации «Крупный бизнес»
+                                        2nd place in the category "Exporter of the Year in the service industry" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-15.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ГБУЗ "Самарский областной клинический онкологический диспансер"</h3>
-                                    <p class="gallery__subtitle">Самарская область</p>
+                                    <h3 class="gallery__title">Samara Regional Clinical Oncological Dispensary </h3>
+                                    <p class="gallery__subtitle">Samara oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере услуг» в номинации «Крупный бизнес»
+                                        3rd place in the category "Exporter of the Year in the service industry" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-42.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ИП Погребняк М.Е.</h3>
-                                    <p class="gallery__subtitle">Ставропольский край</p>
+                                    <h3 class="gallery__title">IE Pogrebnyak M.E.</h3>
+                                    <p class="gallery__subtitle">Stavropol Krai</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере услуг» в номинации «МСП»
+                                        1st place in the category "Exporter of the Year in the service industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-17.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Генеральная Сюрвейерская компания»</h3>
-                                    <p class="gallery__subtitle">Санкт-Петербург</p>
+                                    <h3 class="gallery__title">General Survey Inspection Company LLC</h3>
+                                    <p class="gallery__subtitle">Saint Petersburg</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере услуг» в номинации «МСП»
+                                        2nd place in the category "Exporter of the Year in the service industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-40.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Рубиус групп»</h3>
-                                    <p class="gallery__subtitle">Томская область</p>
+                                    <h3 class="gallery__title">Rubius Group LLC</h3>
+                                    <p class="gallery__subtitle">Tomsk oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере услуг» в номинации «МСП»
+                                        3rd place in the category "Exporter of the Year in the service industry" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-19.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Елатомский приборный завод»</h3>
-                                    <p class="gallery__subtitle">Рязанская область</p>
+                                    <h3 class="gallery__title">Yelatma Instrument Making Enterprise JSC</h3>
+                                    <p class="gallery__subtitle">Ryazan oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере высоких технологий» в номинации «Крупный бизнес»
+                                        1st place in the nomination "Exporter of the year in the sphere of high technologies" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-20.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ПАО «КАМАЗ»</h3>
-                                    <p class="gallery__subtitle">Республика Татарстан</p>
+                                    <h3 class="gallery__title">KAMAZ PJSC</h3>
+                                    <p class="gallery__subtitle">Republic of Tatarstan</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере высоких технологий» в номинации «Крупный бизнес»
+                                        2nd place in the nomination "Exporter of the year in the sphere of high technologies" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-21.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «СКТБ Катализатор»</h3>
-                                    <p class="gallery__subtitle">Новосибирская область</p>
+                                    <h3 class="gallery__title">Catalytic technologies General engineering JSC</h3>
+                                    <p class="gallery__subtitle">Novosibirsk oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере высоких технологий» в номинации «Крупный бизнес»
+                                        3rd place in the nomination "Exporter of the Year in the sphere of high technologies" in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-35.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Лазертаг»</h3>
-                                    <p class="gallery__subtitle">Смоленская область</p>
+                                    <h3 class="gallery__title">Laserwar LLC </h3>
+                                    <p class="gallery__subtitle">Smolensk oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Экспортер года в сфере высоких технологий» в номинации «МСП»
+                                        1st place in the nomination "Exporter of the year in the sphere of high technologies" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-23.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Геоскан»</h3>
-                                    <p class="gallery__subtitle">Санкт-Петербург</p>
+                                    <h3 class="gallery__title">Geoscan LLC </h3>
+                                    <p class="gallery__subtitle">Saint Petersburg</p>
                                     <p class="gallery__text">
-                                        2-е место «Экспортер года в сфере высоких технологий» в номинации «МСП»
+                                        2nd place in the nomination "Exporter of the Year in the sphere of high technologies" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-24.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Macroscop»</h3>
-                                    <p class="gallery__subtitle">Пермский край</p>
+                                    <h3 class="gallery__title">"Macroscop" (Satellite Innovation LLC)</h3>
+                                    <p class="gallery__subtitle">Perm Krai</p>
                                     <p class="gallery__text">
-                                        3-е место «Экспортер года в сфере высоких технологий» в номинации «МСП»
+                                        3rd place in the nomination "Exporter of the Year in the sphere of high technologies" in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-25.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «ПродЭкс»</h3>
-                                    <p class="gallery__subtitle">Республика Татарстан</p>
+                                    <h3 class="gallery__title">ProdEx LLC</h3>
+                                    <p class="gallery__subtitle">Republic of Tatarstan</p>
                                     <p class="gallery__text">
-                                        1-е место «Трейдер года» (для торговых домов) в номинации «Крупный бизнес»
+                                        1st place in the nomination "Trader of the Year" (for trading companies) in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-39.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Вайлдберриз»</h3>
-                                    <p class="gallery__subtitle">Московская область</p>
+                                    <h3 class="gallery__title">Wildberries LLC</h3>
+                                    <p class="gallery__subtitle">Moscow oblast</p>
                                     <p class="gallery__text">
-                                        2-е место «Трейдер года» (для торговых домов) в номинации «Крупный бизнес»
+                                        2nd place in the nomination "Trader of the Year" (for trading companies) in the category "Big Business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-27.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Техснабэкспорт»</h3>
-                                    <p class="gallery__subtitle">Москва</p>
+                                    <h3 class="gallery__title">TENEX JSC</h3>
+                                    <p class="gallery__subtitle">Moscow</p>
                                     <p class="gallery__text">
-                                        3-е место «Трейдер года» (для торговых домов) в номинации «Крупный бизнес»
+                                        3rd place in the nomination "Trader of the Year" (for trading companies) in the category "Big business"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-28.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Точные поставки»</h3>
-                                    <p class="gallery__subtitle">Смоленская область</p>
+                                    <h3 class="gallery__title">Exact deliveries LLC</h3>
+                                    <p class="gallery__subtitle">Smolensk oblast</p>
                                     <p class="gallery__text">
-                                        1-е место «Трейдер года» (для торговых домов) в номинации «МСП»
+                                        1st place in the "Trader of the Year" nomination (for trading companies) in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-29.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «ТПК «Сладонеж»</h3>
-                                    <p class="gallery__subtitle">Омская область</p>
+                                    <h3 class="gallery__title">ITC Sladonezh LLC</h3>
+                                    <p class="gallery__subtitle">Omsk oblast</p>
                                     <p class="gallery__text">
-                                        2-е место «Трейдер года» (для торговых домов) в номинации «МСП»
+                                        2nd place in the "Trader of the Year" nomination (for trading companies) in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-30.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «НПО «Броня»</h3>
-                                    <p class="gallery__subtitle">Волгоградская область</p>
+                                    <h3 class="gallery__title">SPA Armor LLC </h3>
+                                    <p class="gallery__subtitle">Volgograd oblast</p>
                                     <p class="gallery__text">
-                                        3-е место «Трейдер года» (для торговых домов) в номинации «МСП»
+                                        3rd place in the "Trader of the Year" nomination (for trading companies) in the category "SME"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-36.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Арнест»</h3>
-                                    <p class="gallery__subtitle">Ставропольский край</p>
+                                    <h3 class="gallery__title">Arnest JSC </h3>
+                                    <p class="gallery__subtitle">Stavropol Krai</p>
                                     <p class="gallery__text">
-                                        1-е место Дополнительная номинация. «Новая география» в номинации «Крупный бизнес»
+                                        1st place in the nomination "New Geography"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-31.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ПАО «Акрон»</h3>
-                                    <p class="gallery__subtitle">Новгородская область</p>
+                                    <h3 class="gallery__title">Acron PJSC</h3>
+                                    <p class="gallery__subtitle">Novgorod oblast</p>
                                     <p class="gallery__text">
-                                        2-е место Дополнительная номинация. «Новая география» в номинации «Крупный бизнес»
+                                        2nd place in the nomination "New geography"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-32.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">АО «Барнаульский патронный завод»</h3>
-                                    <p class="gallery__subtitle">Алтайский край</p>
+                                    <h3 class="gallery__title">Barnaul Cartridge Plant JSC</h3>
+                                    <p class="gallery__subtitle">Altai Territory</p>
                                     <p class="gallery__text">
-                                        3-е место Дополнительная номинация. «Новая география» в номинации «Крупный бизнес»
+                                        3rd place in the nomination "New Geography"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-24.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Сателлит инновация»</h3>
-                                    <p class="gallery__subtitle">Пермский край</p>
+                                    <h3 class="gallery__title">Macroscop (Satellite Innovation LLC)</h3>
+                                    <p class="gallery__subtitle">Perm Krai</p>
                                     <p class="gallery__text">
-                                        1-е место Дополнительная номинация. «Прорыв года» в номинации «МСП»
+                                        1st place in the nomination "Breakthrough of the year"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-33.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Гудвин»</h3>
-                                    <p class="gallery__subtitle">Приморский край</p>
+                                    <h3 class="gallery__title">Goodwin LLC</h3>
+                                    <p class="gallery__subtitle">Primorsky Krai</p>
                                     <p class="gallery__text">
-                                        1-е место Дополнительная номинация. «Прорыв года» в номинации «МСП»
+                                        1st place in the nomination "Breakthrough of the year"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-34.png" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «Парабола»</h3>
-                                    <p class="gallery__subtitle">Санкт-Петербург</p>
+                                    <h3 class="gallery__title">Parabola LLC </h3>
+                                    <p class="gallery__subtitle">Saint Petersburg</p>
                                     <p class="gallery__text">
-                                        2-е место Дополнительная номинация. «Прорыв года» в номинации «МСП»
+                                        2nd place in the nomination "Breakthrough of the year"
                                     </p>
                                 </div>
                             </div>
                             <div class="gallery__block">
                                 <img src="assets/images/gallery-38.jpg" alt="" class="gallery__img">
                                 <div class="gallery__info">
-                                    <h3 class="gallery__title">ООО «АвтоЭкспорт»</h3>
-                                    <p class="gallery__subtitle">---</p>
+                                    <h3 class="gallery__title">AutoExport LLC</h3>
+                                    <p class="gallery__subtitle">Chelyabinsk oblast</p>
                                     <p class="gallery__text">
-                                        3-е место Дополнительная номинация. «Прорыв года» в номинации «МСП»
+                                        3rd place in the nomination "Breakthrough of the Year"
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                <div class="bg-third">
-                    <section class="partner">
+                <div class="bg-third" >
+                    <section class="partner" id="partners">
                         <h2 class="partner__title">
                             FORUM PARTNERS
                         </h2>
                         <div class="partner__blocks">
                             <a href="https://xn--90ab5f.xn--p1ai/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (4).png" alt="" class="partner__img-one"></a>
-                            <a href="https://www.tpprf.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (6).png" alt="" class="partner__img-one"></a>
-                            <a href="https://opora.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (3).png" alt="" class="partner__img-one"></a>
-                            <a href="https://www.rspp.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner.png" alt="" class="partner__img-one"></a>
-                            <a href="https://deloros.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (5).png" alt="" class="partner__img-one"></a>
+                            <a href="https://www.tpprf.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (2).png" alt="" class="partner__img-one"></a>
+                            <a href="https://opora.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (28).png" alt="" class="partner__img-one"></a>
+                            <a href="https://www.rspp.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (8).png" alt="" class="partner__img-one"></a>
+                            <a href="https://deloros.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (9).png" alt="" class="partner__img-one"></a>
                         </div>
                         <h2 class="partner__title">
                             WITH SUPPORT FROM
                         </h2>
                         <div class="partner__blocks">
-                            <a href="http://government.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (1).png" alt="" class="partner__img-one"></a>
-                            <a href="https://minpromtorg.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (7).png" alt="" class="partner__img-one"></a>
-                            <a href="https://mcx.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (2).png" alt="" class="partner__img-one"></a>
-                            <a href="https://www.economy.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner-logo_eng (4).png" alt="" class="partner__img-one"></a>
+                            <a href="http://government.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (3).png" alt="" class="partner__img-one"></a>
+                            <a href="https://minpromtorg.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (1).png" alt="" class="partner__img-one"></a>
+                            <a href="https://mcx.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (5).png" alt="" class="partner__img-one"></a>
+                            <a href="https://www.economy.gov.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (7).png" alt="" class="partner__img-one"></a>
                         </div>
                         <h2 class="partner__title">
                             информационные партнеры
                         </h2>
                         <div class="partner__blocks">
                             <a href="https://www.vesti.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (19).png" alt="" class="partner__img-one"></a>
-                            <a href="https://iz.ru/o-kompanii" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (21).png" alt="" class="partner__img-one"></a>
+                            <a href="https://www.rbc.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (27).png" alt="" class="partner__img-one"></a>
+                            <a href="https://radiosputnik.ria.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (25).png" alt="" class="partner__img-one"></a>
+                            <a href="https://ria.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (29).png" alt="" class="partner__img-one"></a>
+                
                             <a href="https://tass.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (20).png" alt="" class="partner__img-one"></a>
-                            <a href="https://rg.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (23).png" alt="" class="partner__img-one"></a>
                             <a href="https://www.probusinesstv.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (22).png" alt="" class="partner__img-one"></a>
+                            <a href="https://echo.msk.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (26).png" alt="" class="partner__img-one"></a>
+                
+                            <a href="https://rg.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (23).png" alt="" class="partner__img-one"></a>
                             <a href="https://fedpress.ru/" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (24).png" alt="" class="partner__img-one"></a>
+                            <a href="https://iz.ru/o-kompanii" target="_blank" rel="noopener noreferrer"><img src="assets/images/partner (21).png" alt="" class="partner__img-one"></a>
+                
                         </div>
                     </section>
                 </div>
@@ -2046,6 +2033,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.4/jquery.fancybox.min.js" integrity="sha512-lu0sjbkK/BSrjKyqcKZbU8rKB9hDW01niztDLKJEt6B0tA9C6tXjv3Z3O6eR2Efv8DcJxRpgue5PWTNRVFNMxg==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/app.js?v=123123"></script>
 </body>
 </html>

@@ -75,34 +75,59 @@ $('.gallery__slider').slick({
 
 $("#about-click").on("click", function (event) {
   event.preventDefault();
+  ScrollTop ("#about")
+});
+$("#programm-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#architecture")
+});
+$("#speakers-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#speakers")
+});
+$("#gallery-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#gallery")
+});
+$("#partners-click").on("click", function (event) {
+  event.preventDefault();
+  ScrollTop ("#partner")
+});
+
+
+
+$("#about-click-mobile").on("click", function (event) {
+  event.preventDefault();
   $('.menu-burger__header').toggleClass('open-menu');
   $('.header-content__mobile').toggleClass('open-menu');
   ScrollTop ("#about")
 });
-$("#programm-click").on("click", function (event) {
+$("#programm-click-mobile").on("click", function (event) {
   event.preventDefault();
   $('.menu-burger__header').toggleClass('open-menu');
   $('.header-content__mobile').toggleClass('open-menu');
   ScrollTop ("#architecture")
 });
-$("#speakers-click").on("click", function (event) {
+$("#speakers-click-mobile").on("click", function (event) {
   event.preventDefault();
   $('.menu-burger__header').toggleClass('open-menu');
   $('.header-content__mobile').toggleClass('open-menu');
   ScrollTop ("#speakers")
 });
-$("#gallery-click").on("click", function (event) {
+$("#gallery-click-mobile").on("click", function (event) {
   event.preventDefault();
   $('.menu-burger__header').toggleClass('open-menu');
   $('.header-content__mobile').toggleClass('open-menu');
   ScrollTop ("#gallery")
 });
-$("#partners-click").on("click", function (event) {
+$("#partners-click-mobile").on("click", function (event) {
   event.preventDefault();
   $('.menu-burger__header').toggleClass('open-menu');
   $('.header-content__mobile').toggleClass('open-menu');
   ScrollTop ("#partner")
 });
+
+
 function ScrollTop (scrollTo) {
   var top = $(scrollTo).offset().top;
   $('body,html').animate({scrollTop: top}, 1500);
