@@ -1,5 +1,5 @@
 .main {
-    background-image: url(../images/main__bg.png);
+    background-image: url(../images/main__bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,7 +9,7 @@
     position: relative;
     @include breakpoint($bp-1600) {
         padding: 0 162px;
-        background-image: url(../images/main__bg-1600.png);
+        background-image: url(../images/main__bg-1600.jpg);
         background-size: cover;
     } 
     @include breakpoint($bp-1360) {
@@ -28,7 +28,7 @@
         background-image: url(../images/main__mobile-bg.svg);
     }
     &_eng {
-        background-image: url(../images/main__bg_eng.png);
+        background-image: url(../images/main__bg_eng.jpg);
         background-size: cover;
     }
 }

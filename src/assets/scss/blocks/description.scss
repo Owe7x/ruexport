@@ -1,5 +1,5 @@
 .description {
-    background-image: url(../images/description__bg.png);
+    background-image: url(../images/description__bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
@@ -7,7 +7,7 @@
     margin: 0 auto;
     @include breakpoint($bp-1600) {
         padding: 0 162px;
-        background-image: url(../images/description__mobile-1600.png);
+        background-image: url(../images/description__mobile-1600.jpg);
         background-size: cover;
     } 
     @include breakpoint($bp-1360) {

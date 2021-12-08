@@ -22,7 +22,7 @@ body {
     box-sizing: border-box;
 }
 .bg-first {
-    background-image: url(../images/first_bg.png);
+    background-image: url(../images/first_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
@@ -47,7 +47,7 @@ body {
 }
 .bg-second {
     padding: 100px 40px 217px;
-    background-image: url(../images/bg_second.png);
+    background-image: url(../images/bg_second.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
@@ -68,7 +68,7 @@ body {
 }
 .bg-third {
     padding: 145px 40px 140px;
-    background-image: url(../images/third_bg.png);
+    background-image: url(../images/third_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
@@ -107,3 +107,5 @@ body {
 @import "blocks/gallery.scss";
 @import "blocks/speakers.scss";
 @import "blocks/preheader.scss";
+@import "blocks/broadcast.scss";
+@import "blocks/news.scss";

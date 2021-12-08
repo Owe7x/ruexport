@@ -1,0 +1,134 @@
+.broadcast {
+    background: url(../images/broadcast__bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 100px 0 124px;
+    @include breakpoint($bp-1360) {
+        padding: 100px 80px 124px;
+    }
+    @include breakpoint($bp-1024) {
+        padding: 100px 40px;
+    }
+    @include breakpoint($bp-768) {
+        padding: 70px 20px;
+    }
+    &__container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #002E5E;
+        margin-bottom: 20px;
+    }
+    &__video-title {
+        font-size: 20px;
+        line-height: 120%;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+    &__video {
+        max-width: 500px;
+        width: 100%;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 5px;
+        @include breakpoint($bp-1200) {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+    }
+    &__block {
+        @include breakpoint($bp-1200) {
+            width: 100%;
+        }
+    }
+    &__info {
+        padding: 20px 40px 40px 40px;
+        @include breakpoint($bp-768) {
+            padding: 20px ;
+        }
+    }
+    &__bold {
+        font-weight: bold;
+    }
+    &__href {
+        font-size: 16px;
+        line-height: 120%;
+        color: #1B75BB;
+        text-decoration: none;
+    }
+    &__group {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__subtitle {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 140%;
+        color: #002E5E;
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+    &__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 16px;
+        max-width: 540px;
+        @include breakpoint($bp-1200) {
+            max-width: 100%;
+        }
+        @include breakpoint($bp-992) {
+            justify-content: center;
+        }
+    }
+    &__min-block {
+        max-width: 260px;
+        min-height: 162px;
+        width: 100%;
+        padding: 20px 16px;
+        border-radius: 5px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__video-img {
+        width: 100%;
+        object-fit: cover;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block-title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+}
+.min-block-1 {
+    background: url(../images/broadcast__min-block-1.jpg);
+    background-repeat: no-repeat;
+}
+.min-block-2 {
+    background: url(../images/broadcast__min-block-2.jpg);
+    background-repeat: no-repeat;
+}
+.min-block-3 {
+    background: url(../images/broadcast__min-block-3.jpg);
+    background-repeat: no-repeat;
+}
+.min-block-4 {
+    background: url(../images/broadcast__min-block-4.jpg);
+    background-repeat: no-repeat;
+}
