@@ -163,3 +163,74 @@ $(document).ready(function() {
         $('.header-content__mobile').toggleClass('open-menu');
 	});
 });
+
+
+if (window.addEventListener) {
+  window.addEventListener("message", fc_msg_receive);
+} else {
+  // IE8
+  window.attachEvent("onmessage", fc_msg_receive);
+}
+
+function fc_msg_receive(msg) {
+  if (msg && msg.data && typeof msg.data === "string") {
+      if (msg.data.indexOf('Facecast_player') > -1) {
+          var data = JSON.parse(msg.data);
+          if (data.type == "write_storage") {
+              try {
+                  window.localStorage.setItem(data.key, data.value);
+              } catch(e) {
+                  return console.log(e.toString());
+              }
+          }
+
+          if (data.type == "update_storage") {
+              fc_update_storage(data.source_frame);
+          }
+      }
+  }
+}
+
+function fc_load_iframe(e, par) {
+  if (!e.id) {
+      console.log('No frame id');
+      return;
+  }
+  var d = document.querySelector('script[src*="/v/js/iframe.js"]').src.split("/")[2];
+  var s, p, url = 'https://' + ((d) ? d : 'facecast.net') + '/v/'+ e.id + ((par) ? '?'+par : '');
+  if (s = document.location.search.slice(1)) {
+      p = s.split('&');
+      p.forEach(function (item) {
+          if (item.indexOf('utm_') == 0 || item.indexOf('fc_') == 0 || item.indexOf('fcdebug') == 0) {
+              url = url + ((url.indexOf('?') > 0) ? '&' : '?') + ((item.indexOf('fc_') == 0) ? item.replace('fc_','') : item);
+          }
+      });
+  }
+  if (e.src != url)
+      e.src = url;
+}
+
+function fc_update_storage(e) {
+  var d = {};
+  try {
+      Object.keys(window.localStorage).forEach(function(k) {
+          d[k] = window.localStorage[k];
+      });
+  } catch(error) {
+      return console.log(error.toString());
+  }
+
+  var m = JSON.stringify({
+      frame: e,
+      exec: "update_storage",
+      data: d
+  });
+  try {
+      for (var i = 0; i < window.frames.length; i++) {
+          if (window.frames[i].location.pathname == '/v/'+e)
+              window.frames[i].postMessage(m, '*');
+      }
+  } catch(error) {
+      return console.log(error.toString());
+  }
+}

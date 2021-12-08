@@ -224,6 +224,9 @@
     @include breakpoint($bp-520) {
         margin-bottom: 20px;
     }
+    @include breakpoint($bp-425) {
+        max-width: 340px;
+    }
 }
 .main__text-bold {
     font-weight: bold;
