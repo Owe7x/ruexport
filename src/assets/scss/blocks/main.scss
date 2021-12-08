@@ -217,14 +217,11 @@
     text-decoration: none;
 }
 .main__logo-mobile {
-    max-width: 220px;
-    width: 100%;
     display: none;
     @include breakpoint($bp-768) {
         display: block;
     } 
     @include breakpoint($bp-520) {
-        max-width: 156px;
         margin-bottom: 20px;
     }
 }

@@ -19,6 +19,9 @@
         display: flex;
         align-items: center;
         column-gap: 50px;
+        @include breakpoint($bp-520) {
+            column-gap: 15px;
+        }
     }
 }
 .header__container {
@@ -33,7 +36,6 @@
     }
 }
 .header__img {
-    max-width: 260px;
     width: 100%;
     margin-right: 20px;
     @include breakpoint($bp-520) {
@@ -62,6 +64,7 @@
 }
 .header__logo {
     display: flex;
+    align-items: center;
 }
 .header__img_eng {
     max-height: 48px;
