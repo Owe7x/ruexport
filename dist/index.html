@@ -363,12 +363,6 @@
                                     Открытые, транслируемые
                                 </p>
                             </div>
-                            <div class="architecture__dots-item">
-                                <div class="architecture__dots-dots dots-green"></div>
-                                <p class="architecture__dots-text text-green">
-                                    Образовательные по предварительной регистрации
-                                </p>
-                            </div>
                         </div>
                         <div class="architecture__mobile">
                     
@@ -677,11 +671,13 @@
                                 <h1 class="broadcast__title">
                                     Трансляция
                                 </h1>
-                                <div class="broadcast__video">
-                                    <iframe src="https://facecast.net/v/58dbd0" width="100%" height="200px"  style="border:none" allow="autoplay; fullscreen" allowfullscreen ></iframe>
-                                    <div class="broadcast__info">
-                                        <h3 class="broadcast__video-title"><b class="broadcast__bold">Донастройка системы поддержки экспорта:</b> как противостоять замедлению глобальной торговли</h3>
-                                        <a href="" class="broadcast__href">Стеклянный зал</a>
+                                <div class="broadcast__video-result">
+                                    <div class="broadcast__video">
+                                        <iframe src="https://facecast.net/v/58dbd0" class="broadcast__video-player" style="border:none" allow="autoplay; fullscreen" allowfullscreen ></iframe>
+                                        <div class="broadcast__info">
+                                            <h3 class="broadcast__video-title"><b class="broadcast__bold">Донастройка системы поддержки экспорта:</b> как противостоять замедлению глобальной торговли</h3>
+                                            <a href="" class="broadcast__href">Стеклянный зал</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -691,54 +687,40 @@
                                 </div>
                                 <div class="broadcast__blocks">
                                     <div class="broadcast__min-block min-block-1">
-                                        <div class="broadcast__header">
-                                            <div class="broadcast__time">
-                                                10:30 - 11:00
-                                            </div>
-                                        </div>
-                                        <div class="broadcast__info-min">
-                                            <h4 class="broadcast__block-title">Открытое обсуждение</h4>
-                                            <p class="broadcast__block-text">Стеклянный зал</p>
-                                        </div>
+                                        <div class="broadcast__min-block-title" >
+                                            Пресс зал
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1001"></div>
                                     </div>
-                                    <div class="broadcast__min-block min-block-2">
-                                        <div class="broadcast__header">
-                                            <div class="broadcast__time">
-                                                10:30 - 11:00
-                                            </div>
-                                            <div class="broadcast__btn">
-                                                <img src="assets/images/broadcast__btn-1.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="broadcast__info-min">
-                                            <h4 class="broadcast__block-title">Донастройка системы поддержки экспорта: как противостоять замедлению глобальной торговли</h4>
-                                            <p class="broadcast__block-text">Стеклянный зал</p>
-                                        </div>
+                                    <div class="broadcast__min-block min-block-2" >
+                                        <div class="broadcast__min-block-title">
+                                            Зал Валдай
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1002"></div>
                                     </div>
-                                    <div class="broadcast__min-block min-block-3">
-                                        <div class="broadcast__header">
-                                            <div class="broadcast__time">
-                                                10:30 - 11:00
-                                            </div>
-                                            <div class="broadcast__btn">
-                                                <img src="assets/images/broadcast__btn-2.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="broadcast__info-min">
-                                            <h4 class="broadcast__block-title">Вебинар «Интернет-маркетинг с локальной спецификой»</h4>
-                                            <p class="broadcast__block-text">Стеклянный зал</p>
-                                        </div>
+                                    <div class="broadcast__min-block min-block-3" >
+                                        <div class="broadcast__min-block-title">
+                                            Зал Селигер
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1003"></div>
                                     </div>
-                                    <div class="broadcast__min-block min-block-4">
-                                        <div class="broadcast__header">
-                                            <div class="broadcast__time">
-                                                10:30 - 11:00
-                                            </div>
-                                        </div>
-                                        <div class="broadcast__info-min">
-                                            <h4 class="broadcast__block-title">Открытое обсуждение</h4>
-                                            <p class="broadcast__block-text">Стеклянный зал</p>
-                                        </div>
+                                    <div class="broadcast__min-block min-block-4" >
+                                        <div class="broadcast__min-block-title">
+                                            Зал Байкал
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1004"></div>
+                                    </div>
+                                    <div class="broadcast__min-block min-block-5" >
+                                        <div class="broadcast__min-block-title">
+                                            Зал Иртыш
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1005"></div>
+                                    </div>
+                                    <div class="broadcast__min-block min-block-6" >
+                                        <div class="broadcast__min-block-title">
+                                            Зал Печора
+                                        </div>  
+                                        <div class="broadcast__min-btn" id="1006"></div>
                                     </div>
                                 </div>
                             </div>
@@ -1142,7 +1124,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="speakers__blocks speakers__block-hide">
+                                <div class="speakers__block speakers__block-hide">
                                     <div class="speakers__block">
                                         <img src="assets/images/Rectangle 4.jpg" alt="" class="speakers__img">
                                         <div class="speakers__block-info">
@@ -1552,7 +1534,7 @@
                                             Директор Департамента 
                                         </p>
                                         <p class="speakers__block-text">
-                                            международного сотрудничества и связей с общественностью
+                                            международного сотрудничества и связей с общественностью Министерства просвещения РФ
                                         </p>
                                     </div>
                                 </div>
@@ -2817,6 +2799,15 @@
                         <p class="elements__subtitle-arrays"></p>
                         <p class="elements__subtitle-key-2"></p>
                         <p class="elements__subtitle-arrays-2"></p>
+                    </div>
+                </template>
+                <template id="element-template-broadcast">
+                    <div class="broadcast__video">
+                        <iframe src="https://facecast.net/v/58dbd0" class="broadcast__video-player" style="border:none" allow="autoplay; fullscreen" allowfullscreen ></iframe>
+                        <div class="broadcast__info">
+                            <h3 class="broadcast__video-title"><b class="broadcast__bold">Донастройка системы поддержки экспорта:</b> как противостоять замедлению глобальной торговли</h3>
+                            <a href="" class="broadcast__href">Стеклянный зал</a>
+                        </div>
                     </div>
                 </template>
 

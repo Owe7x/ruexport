@@ -3701,6 +3701,7 @@ class Card {
         this._elementSubtitleArrays.textContent = this._subtitleArrays
         this._elementSubtitleKey2.textContent = this._subtitleKey2
         this._elementSubtitleArrays2.textContent = this._subtitleArrays2
+        console.log(this._element);
         return this._element;
     }
 }
@@ -3759,5 +3760,6 @@ $('#worldMapEng').on('click', function(e) {
 function addCard(item ,elemList, elemTemplate) {
     const card = new Card(item, elemTemplate);
     const cardElements = card.createElement();
+    console.log(cardElements);
     elemList.prepend(cardElements);
 }
