@@ -194,6 +194,7 @@ function fc_msg_receive(msg) {
 $(".btn__speakers").on("click", function (event) {
   event.preventDefault();
   $('.speakers__block-hide').toggleClass('speakers__block-hide');
+  $('.btn__speakers').toggleClass('speakers__block-hide');
 });
 
 

@@ -3292,6 +3292,10 @@ path {
     }
 }
 
+.speakers__block-hide {
+    display: none;
+}
+
 .preheader {
     background: #F3F5F8;
     padding: 16px 0;
