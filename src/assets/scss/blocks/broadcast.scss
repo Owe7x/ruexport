@@ -35,7 +35,6 @@
     }
     &__video {
         max-width: 840px;
-        width: 100%;
         background: #fff;
         overflow: hidden;
         border-radius: 5px;
@@ -53,6 +52,12 @@
     &__block {
         @include breakpoint($bp-1280) {
             width: 100%;
+        }
+        &:first-child {
+            width: 75%;
+            @include breakpoint($bp-1280) {
+                width: 100%;
+            }
         }
     }
     &__info {
@@ -100,11 +105,11 @@
         max-width: 300px;
         min-width: 280px;
         width: 100%;
-        padding: 16px 25px 17px 30px;
+        padding: 22px 20px 23px 20px ;
         border-radius: 5px;
         overflow: hidden;
         display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
         position: relative;
 
@@ -116,7 +121,6 @@
         width: 110px;
         height: 30px;
         background: rgba($color: #fff, $alpha: 0.2);
-        margin-left: auto;
         border-radius: 47px;
         color: #fff;
         position: relative;
@@ -141,7 +145,6 @@
         font-size: 20px;
         line-height: 120%;
         color: #FFFFFF;
-        margin-bottom: 3px;
         position: relative;
         z-index: 2;
     }

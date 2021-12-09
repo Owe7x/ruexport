@@ -1,24 +1,52 @@
 const boradcast = [
     {
         src: 'https://facecast.net/v/58dbd0',
-        text: 'Донастройка системы поддержки экспорта: как противостоять замедлению глобальной торговли',
+        text: 'Трансляция скоро будет доступна',
         href: '/',
-        hrefText: 'Стеклянный зал',
+        hrefText: 'Конгресс зал',
         id: 1001
     },
     {
-        src: 'https://www.youtube.com/embed/TSHEDUVOgcA',
-        text: 'ТЕСТ ТЕС ТЕСТ ТЕСТ ТЕС ТЕСТ ТЕСТ ТЕС ТЕСТ ТЕСТ ТЕС ТЕСТ ТЕСТ ТЕСТ ТЕС ТЕСТ ТЕСТ ТЕСТ ТЕС ТЕСТ',
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
         href: '/',
-        hrefText: 'Оловянный зал',
+        hrefText: 'Пресс зал',
         id: 1002
     },
     {
-        src: 'https://www.youtube.com/embed/WJLlkPvxY8g',
-        text: 'ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2 ТЕСТ2',
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
         href: '/',
-        hrefText: 'Деревянный зал',
+        hrefText: 'Зал Валдай',
         id: 1003
+    },
+    {
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
+        href: '/',
+        hrefText: 'Зал Селигер',
+        id: 1004
+    },
+    {
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
+        href: '/',
+        hrefText: 'Зал Байкал',
+        id: 1005
+    },
+    {
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
+        href: '/',
+        hrefText: 'Зал Иртыш',
+        id: 1006
+    },
+    {
+        src: 'https://facecast.net/v/58dbd0',
+        text: 'Трансляция скоро будет доступна',
+        href: '/',
+        hrefText: 'Зал Печора',
+        id: 1007
     }
 ]
 
