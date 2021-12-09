@@ -191,46 +191,9 @@ function fc_msg_receive(msg) {
   }
 }
 
-function fc_load_iframe(e, par) {
-  if (!e.id) {
-      console.log('No frame id');
-      return;
-  }
-  var d = document.querySelector('script[src*="/v/js/iframe.js"]').src.split("/")[2];
-  var s, p, url = 'https://' + ((d) ? d : 'facecast.net') + '/v/'+ e.id + ((par) ? '?'+par : '');
-  if (s = document.location.search.slice(1)) {
-      p = s.split('&');
-      p.forEach(function (item) {
-          if (item.indexOf('utm_') == 0 || item.indexOf('fc_') == 0 || item.indexOf('fcdebug') == 0) {
-              url = url + ((url.indexOf('?') > 0) ? '&' : '?') + ((item.indexOf('fc_') == 0) ? item.replace('fc_','') : item);
-          }
-      });
-  }
-  if (e.src != url)
-      e.src = url;
-}
+$(".btn__speakers").on("click", function (event) {
+  event.preventDefault();
+  $('.speakers__block-hide').toggleClass('speakers__block-hide');
+});
 
-function fc_update_storage(e) {
-  var d = {};
-  try {
-      Object.keys(window.localStorage).forEach(function(k) {
-          d[k] = window.localStorage[k];
-      });
-  } catch(error) {
-      return console.log(error.toString());
-  }
 
-  var m = JSON.stringify({
-      frame: e,
-      exec: "update_storage",
-      data: d
-  });
-  try {
-      for (var i = 0; i < window.frames.length; i++) {
-          if (window.frames[i].location.pathname == '/v/'+e)
-              window.frames[i].postMessage(m, '*');
-      }
-  } catch(error) {
-      return console.log(error.toString());
-  }
-}
