@@ -57,9 +57,12 @@ class CardBroadcast {
     }
 }
 
-$('.broadcast__blocks').on('click', function(e) {
+$('.broadcast__min-btn').on('click', function(e) {
     $('.broadcast__video').remove()
     const target = e.target
+    console.log(target.parentNode);
+    $('.broadcast__min-block').removeClass('min__block-active')
+    $(target.parentNode).addClass('min__block-active')
     const targetId = target.id
     console.log(targetId);
     boradcast.forEach(item => {
