@@ -1,6 +1,6 @@
 .video {
     max-width: 1440px;
-    margin: 0 auto 160px;
+    margin: 160px auto 0px;
     @include breakpoint($bp-1024) {
         margin: 0 auto 80px;
     } 
