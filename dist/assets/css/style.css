@@ -3392,7 +3392,6 @@ path {
 
 .broadcast__video {
     max-width: 840px;
-    width: 100%;
     background: #fff;
     overflow: hidden;
     border-radius: 5px;
@@ -3416,6 +3415,16 @@ path {
 
 @media screen and (max-width: 1280px) {
     .broadcast__block {
+        width: 100%;
+    }
+}
+
+.broadcast__block:first-child {
+    width: 75%;
+}
+
+@media screen and (max-width: 1280px) {
+    .broadcast__block:first-child {
         width: 100%;
     }
 }
@@ -3487,13 +3496,13 @@ path {
     max-width: 300px;
     min-width: 280px;
     width: 100%;
-    padding: 16px 25px 17px 30px;
+    padding: 22px 20px 23px 20px;
     border-radius: 5px;
     overflow: hidden;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
     position: relative;
@@ -3509,7 +3518,6 @@ path {
     width: 110px;
     height: 30px;
     background: rgba(255, 255, 255, 0.2);
-    margin-left: auto;
     border-radius: 47px;
     color: #fff;
     position: relative;
@@ -3538,7 +3546,6 @@ path {
     font-size: 20px;
     line-height: 120%;
     color: #FFFFFF;
-    margin-bottom: 3px;
     position: relative;
     z-index: 2;
 }
