@@ -1850,7 +1850,7 @@ body {
 
 .video {
     max-width: 1440px;
-    margin: 0 auto 160px;
+    margin: 160px auto 0px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2434,6 +2434,10 @@ body {
 
 .minheight-192 {
     min-height: 192px;
+}
+
+.minheight-729 {
+    min-height: 720px;
 }
 
 .partner {
@@ -3342,7 +3346,6 @@ path {
 }
 
 .broadcast {
-    background: url(../images/broadcast__bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1920px;
@@ -3626,13 +3629,13 @@ path {
 
 @media screen and (max-width: 425px) {
     .broadcast__video-player {
-        height: 215px;
+        height: 192px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .broadcast__video-player {
-        height: 187px;
+        height: 166px;
     }
 }
 

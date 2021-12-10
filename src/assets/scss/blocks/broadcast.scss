@@ -201,10 +201,10 @@
         height: 300px;
     }
     @include breakpoint($bp-425) {
-        height: 215px;
+        height: 192px;
     }
     @include breakpoint($bp-375) {
-        height: 187px;
+        height: 166px;
     }
 }
 .min__block-active {
