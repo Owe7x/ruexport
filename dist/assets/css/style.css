@@ -1861,7 +1861,7 @@ body {
 
 @media screen and (max-width: 520px) {
     .video {
-        margin: 0 auto 70px;
+        margin: 70px auto 0px;
     }
 }
 
@@ -3433,12 +3433,12 @@ path {
 }
 
 .broadcast__info {
-    padding: 20px 40px 40px 40px;
+    padding: 20px 40px;
 }
 
 @media screen and (max-width: 768px) {
     .broadcast__info {
-        padding: 20px;
+        padding: 10px 15px;
     }
 }
 
@@ -3447,10 +3447,11 @@ path {
 }
 
 .broadcast__href {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 120%;
-    color: #1B75BB;
+    color: #1b75bb;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .broadcast__group {

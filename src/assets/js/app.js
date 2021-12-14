@@ -96,7 +96,30 @@ $('.news__slider').slick({
     },
   ]
 });
-
+$('.voiting__slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  prevArrow: '<button type="button" class="slick-prev-gallery"></button>',
+  nextArrow: '<button type="button" class="slick-next-gallery"></button>',
+  responsive: [
+    {
+      breakpoint: 820,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+  ]
+});
 $("#about-click").on("click", function (event) {
   event.preventDefault();
   ScrollTop ("#about")

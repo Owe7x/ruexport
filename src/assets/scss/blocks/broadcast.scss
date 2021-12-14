@@ -61,19 +61,20 @@
         }
     }
     &__info {
-        padding: 20px 40px 40px 40px;
+        padding: 20px 40px;
         @include breakpoint($bp-768) {
-            padding: 20px ;
+            padding: 10px 15px;
         }
     }
     &__bold {
         font-weight: bold;
     }
-    &__href {
-        font-size: 16px;
+    &__href {           
+        font-size: 20px;
         line-height: 120%;
-        color: #1B75BB;
+        color: #1b75bb;
         text-decoration: none;
+        font-weight: bold;
     }
     &__group {
         display: flex;
