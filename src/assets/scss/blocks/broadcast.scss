@@ -40,13 +40,7 @@
         border-radius: 5px;
         @include breakpoint($bp-1280) {
             max-width: 700px;
-        }
-    }
-    &__video-result {
-        @include breakpoint($bp-1280) {
-            max-width: 100%;
-            display: flex;
-            justify-content: center;
+            margin: 0 auto;
         }
     }
     &__block {
@@ -81,6 +75,9 @@
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 30px;
+        @include breakpoint($bp-1440) {
+            justify-content: center;
+        }
     }
     &__subtitle {
         font-weight: bold;
@@ -95,7 +92,7 @@
         column-gap: 16px;
         row-gap: 16px;
         max-width: 540px;
-        @include breakpoint($bp-1280) {
+        @include breakpoint($bp-1440) {
             max-width: 100%;
             flex-direction: row;
             flex-wrap: wrap;

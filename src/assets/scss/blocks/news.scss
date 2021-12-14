@@ -2,18 +2,18 @@
     background: #e2e7ec;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 100px 0 177px;
+    padding: 100px 0 100px;
     @include breakpoint($bp-1600) {
-        padding: 100px 0 177px;
+        padding: 100px 0 100px;
     } 
     @include breakpoint($bp-1360) {
-        padding: 120px 80px 120px;
+        padding: 80px 80px 80px;
     } 
     @include breakpoint($bp-1024) {
-        padding: 70px 40px 51px;
+        padding: 50px 40px 50px;
     }   
     @include breakpoint($bp-768) {
-        padding: 70px 20px 51px;
+        padding: 50px 20px 50px;
     }
     
     &__container {
@@ -47,11 +47,11 @@
         }
     }
     &__info {
-        padding: 20px;
+        padding: 44px 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 200px;
+        min-height: 280px;
         @include breakpoint($bp-600) {
             height: auto;
         }
@@ -61,13 +61,20 @@
         font-size: 18px;
         line-height: 110%;
         color: #000000;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        height: 60px;
+        text-overflow: clip;
+        overflow: hidden;
     }
     &__info-subtitle {
         font-size: 15px;
         line-height: 110%;
         color: #000000;
         margin-bottom: 15px;
+        text-overflow: clip;
+        overflow: hidden;
+        height: 50px;
+        margin-bottom: 30px;
     }
     &__btn {
         display: flex;
@@ -89,6 +96,8 @@
     &__slider {
         max-width: 996px;
         margin: 0 auto ;
+        display: flex;
+        flex-direction: row-reverse;
     }
     &__img {
         width: 100%;

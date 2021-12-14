@@ -104,7 +104,7 @@ $('.voiting__slider').slick({
   nextArrow: '<button type="button" class="slick-next-gallery"></button>',
   responsive: [
     {
-      breakpoint: 820,
+      breakpoint: 1250,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -112,7 +112,7 @@ $('.voiting__slider').slick({
       }
     },
     {
-      breakpoint: 640,
+      breakpoint: 850,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
