@@ -3395,16 +3395,7 @@ path {
 @media screen and (max-width: 1280px) {
     .broadcast__video {
         max-width: 700px;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .broadcast__video-result {
-        max-width: 100%;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
+        margin: 0 auto;
     }
 }
 
@@ -3456,6 +3447,13 @@ path {
     row-gap: 30px;
 }
 
+@media screen and (max-width: 1440px) {
+    .broadcast__group {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
 .broadcast__subtitle {
     font-weight: bold;
     font-size: 28px;
@@ -3476,7 +3474,7 @@ path {
     max-width: 540px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1440px) {
     .broadcast__blocks {
         max-width: 100%;
         -ms-flex-direction: row;
@@ -3654,30 +3652,30 @@ path {
     background: #e2e7ec;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 100px 0 177px;
+    padding: 100px 0 100px;
 }
 
 @media screen and (max-width: 1600px) {
     .news {
-        padding: 100px 0 177px;
+        padding: 100px 0 100px;
     }
 }
 
 @media screen and (max-width: 1360px) {
     .news {
-        padding: 120px 80px 120px;
+        padding: 80px 80px 80px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .news {
-        padding: 70px 40px 51px;
+        padding: 50px 40px 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .news {
-        padding: 70px 20px 51px;
+        padding: 50px 20px 50px;
     }
 }
 
@@ -3724,14 +3722,14 @@ path {
 }
 
 .news__info {
-    padding: 20px;
+    padding: 44px 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    height: 200px;
+    min-height: 280px;
 }
 
 @media screen and (max-width: 600px) {
@@ -3745,7 +3743,10 @@ path {
     font-size: 18px;
     line-height: 110%;
     color: #000000;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    height: 60px;
+    text-overflow: clip;
+    overflow: hidden;
 }
 
 .news__info-subtitle {
@@ -3753,6 +3754,10 @@ path {
     line-height: 110%;
     color: #000000;
     margin-bottom: 15px;
+    text-overflow: clip;
+    overflow: hidden;
+    height: 50px;
+    margin-bottom: 30px;
 }
 
 .news__btn {
@@ -3780,6 +3785,10 @@ path {
 .news__slider {
     max-width: 996px;
     margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .news__img {
@@ -3843,6 +3852,12 @@ path {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 850px) {
+    .voiting__block {
+        max-width: 100%;
+    }
+}
+
 .voiting__block-title {
     font-weight: bold;
     font-size: 16px;
@@ -3850,6 +3865,30 @@ path {
     text-transform: uppercase;
     color: #000000;
     padding: 0 20px;
+}
+
+@media screen and (max-width: 1360px) {
+    .voiting__block-title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .voiting__block-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .voiting__block-title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .voiting__block-title {
+        font-size: 13px;
+    }
 }
 
 .voiting__questions {
@@ -3902,7 +3941,7 @@ path {
 .result-1::before {
     display: block;
     content: '';
-    max-width: 9px;
+    max-width: 3%;
     width: 100%;
     height: 3px;
     background: #1B75BB;
@@ -3929,7 +3968,7 @@ path {
 .result-2::before {
     display: block;
     content: '';
-    max-width: 33px;
+    max-width: 11%;
     width: 100%;
     height: 3px;
     background: #1B75BB;
@@ -3947,7 +3986,9 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 13px;
+    left: 11%;
+    -webkit-transform: translateX(-23px);
+    transform: translateX(-23px);
 }
 
 .result-3 {
@@ -3957,7 +3998,7 @@ path {
 .result-3::before {
     display: block;
     content: '';
-    max-width: 198px;
+    max-width: 86%;
     width: 100%;
     height: 3px;
     background: #1B75BB;
@@ -3975,7 +4016,9 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 165px;
+    left: 86%;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
 }
 
 .result-4 {
@@ -4041,7 +4084,7 @@ path {
 .result-6::before {
     display: block;
     content: '';
-    max-width: 190px;
+    max-width: 69%;
     width: 100%;
     height: 3px;
     background: #1B75BB;
@@ -4059,7 +4102,9 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 160px;
+    left: 69%;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
 }
 
 .result-7 {
@@ -4069,7 +4114,7 @@ path {
 .result-7::before {
     display: block;
     content: '';
-    max-width: 80px;
+    max-width: 20%;
     width: 100%;
     height: 3px;
     background: #1B75BB;
@@ -4087,35 +4132,9 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 50px;
-}
-
-.result-8 {
-    position: relative;
-}
-
-.result-8::before {
-    display: block;
-    content: '';
-    max-width: 80px;
-    width: 100%;
-    height: 3px;
-    background: #1B75BB;
-    position: absolute;
-    top: 0;
-    border-radius: 3px;
-}
-
-.result-8::after {
-    display: block;
-    content: '50%';
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 120%;
-    color: #1B75BB;
-    position: absolute;
-    top: -20px;
-    left: 50px;
+    left: 20%;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
 }
 
 .result-8 {
@@ -4144,6 +4163,8 @@ path {
     position: absolute;
     top: -20px;
     left: 50%;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
 }
 
 .result-9 {
@@ -4171,7 +4192,9 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 60px;
+    left: 45%;
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
 }
 
 .result-10 {
@@ -4199,5 +4222,7 @@ path {
     color: #1B75BB;
     position: absolute;
     top: -20px;
-    left: 82px;
+    left: 54%;
+    -webkit-transform: translateX(-45px);
+    transform: translateX(-45px);
 }
