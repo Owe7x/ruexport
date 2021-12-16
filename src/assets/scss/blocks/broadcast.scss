@@ -162,8 +162,7 @@
         color: #FFFFFF;
     }
     &__elem {
-        max-width: 760px;
-        margin: 0 auto 10px;
+        margin-bottom: 10px;
         padding: 0 0 10px;
         display: flex;
         justify-content: space-between;
@@ -171,6 +170,9 @@
         border-bottom: 1px solid #C0C0C0;
         &:last-child {
             border-bottom: none;
+        }
+        @include breakpoint($bp-520) {
+            flex-direction: column;
         }
     }
     &__name {
@@ -180,6 +182,14 @@
         text-transform: uppercase;
         color: #000000;
         max-width: 80%;
+        @include breakpoint($bp-992) {
+            max-width: 70%;
+        }
+        @include breakpoint($bp-520) {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+
     }
     &__btn {
         width: 120px;
@@ -192,6 +202,12 @@
         justify-content: center;
         align-items: center;
 
+    }
+    &__group-info {
+        padding: 0 40px;
+        @include breakpoint($bp-992) {
+            padding: 0 15px;
+        }
     }
 }
 .min-block-1 {

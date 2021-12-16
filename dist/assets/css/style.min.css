@@ -2474,8 +2474,7 @@ path {
     line-height: 120%;
     color: #FFFFFF; }
   .broadcast__elem {
-    max-width: 760px;
-    margin: 0 auto 10px;
+    margin-bottom: 10px;
     padding: 0 0 10px;
     display: flex;
     justify-content: space-between;
@@ -2483,6 +2482,9 @@ path {
     border-bottom: 1px solid #C0C0C0; }
     .broadcast__elem:last-child {
       border-bottom: none; }
+    @media screen and (max-width: 520px) {
+      .broadcast__elem {
+        flex-direction: column; } }
   .broadcast__name {
     font-weight: bold;
     font-size: 12px;
@@ -2490,6 +2492,13 @@ path {
     text-transform: uppercase;
     color: #000000;
     max-width: 80%; }
+    @media screen and (max-width: 992px) {
+      .broadcast__name {
+        max-width: 70%; } }
+    @media screen and (max-width: 520px) {
+      .broadcast__name {
+        max-width: 100%;
+        margin-bottom: 10px; } }
   .broadcast__btn {
     width: 120px;
     height: 35px;
@@ -2500,6 +2509,11 @@ path {
     display: flex;
     justify-content: center;
     align-items: center; }
+  .broadcast__group-info {
+    padding: 0 40px; }
+    @media screen and (max-width: 992px) {
+      .broadcast__group-info {
+        padding: 0 15px; } }
 
 .min-block-1 {
   background: url(../images/broadcast1.jpg);

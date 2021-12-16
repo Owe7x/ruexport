@@ -20,11 +20,11 @@ const boradcast = [
         id: 1002
     },
     {
-        src: 'https://player.vimeo.com/video/656536557?h=408def4a07&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+        src: 'https://www.youtube.com/embed/XvrSt7LWNhE',
         hrefText: 'Зал Валдай',
         arrayElem: [
-            {name: 'СТРАТЕГИЧЕСКАЯ СЕССИЯ «РАЗВИТИЕ ЭКСПОРТА - РАЗВИТИЕ ТЕРРИТОРИИ»' , src: 'https://player.vimeo.com/video/656536557?h=408def4a07&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
-            {name: 'СЕССИЯ "НОВЫЙ КЛИЕНТСКИЙ ПУТЬ ЭКСПОРТЕРА: ПЕРВЫЕ ШАГИ"' , src: 'https://player.vimeo.com/video/656536557?h=408def4a07&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' },
+            {name: 'СТРАТЕГИЧЕСКАЯ СЕССИЯ «РАЗВИТИЕ ЭКСПОРТА - РАЗВИТИЕ ТЕРРИТОРИИ»' , src: 'https://www.youtube.com/embed/XvrSt7LWNhE' },
+            {name: 'СЕССИЯ "НОВЫЙ КЛИЕНТСКИЙ ПУТЬ ЭКСПОРТЕРА: ПЕРВЫЕ ШАГИ"' , src: 'https://www.youtube.com/embed/Vaaqtn1OI1o' },
         ],
         id: 1003
     },
@@ -38,10 +38,10 @@ const boradcast = [
         id: 1004
     },
     {
-        src: 'https://facecast.net/v/tn3fp0?key=&chat_token=MWIrZGJ2R2xKMTZiYm9mUXVtZVczK2RhbVl1eWJIaWU1Q2V6aWFqL1lGZz1kUXBRVEtjb3NUck1SbnRx',
+        src: 'https://www.youtube.com/embed/4tbayuZb9ck',
         hrefText: 'Зал Байкал',
         arrayElem: [
-            {name: 'ВЕБИНАР ПО МЕРАМ ГОСПОДДЕРЖКИ' , src: 'https://facecast.net/v/tn3fp0?key=&chat_token=MWIrZGJ2R2xKMTZiYm9mUXVtZVczK2RhbVl1eWJIaWU1Q2V6aWFqL1lGZz1kUXBRVEtjb3NUck1SbnRx' },
+            {name: 'ВЕБИНАР ПО МЕРАМ ГОСПОДДЕРЖКИ' , src: 'https://www.youtube.com/embed/4tbayuZb9ck' },
             {name: 'ВЕБИНАР «SHOWCASE ПЛАТФОРМЫ ПРОФЕССИОНАЛЫ ЭКСПОРТА»' , src: 'https://www.youtube.com/embed/47V2WnVU2s4'},
             {name: 'СЕССИЯ «МЕЖДУНАРОДНЫЙ КОММЕРЧЕСКИЙ АРБИТРАЖНЫЙ СУД И МОРСКАЯ АРБИТРАЖНАЯ КОМИССИЯ ПРИ ТПП РОССИИ КАК МЕХАНИЗМЫ ЗАЩИТЫ ПРАВ РОССИЙСКИХ ЭКСПОРТЕРОВ»' , src: 'https://www.youtube.com/embed/04mCM4uT_-0'},
         ],
@@ -52,7 +52,7 @@ const boradcast = [
         hrefText: 'Зал Иртыш',
         arrayElem: [
             {name: 'МАСТЕР-КЛАСС-ТУРНИР ПО ПЕРЕГОВОРАМ ЭКСПОРТЕРОВ С ИМПОРТЕРАМИ (С ВУЗАМИ-ПАРТНЕРАМИ) ' , src: 'https://www.youtube.com/embed/zR2kG4Vh9AU'},
-            {name: 'СЕССИЯ "ЭКСПОРТ РОССИЙСКОГО ОБРАЗОВАНИЯ" ' , src: 'https://facecast.net/v/ex7ev4?key=&chat_token=aXFUaEpmQzJCaXd4Z3NHN3lPOU5kbnVGdWFUWndPZXFsT2xzY3hVS2ptcz1IT1Ixc05hQXVxenpTdFNV'},
+            {name: 'СЕССИЯ "ЭКСПОРТ РОССИЙСКОГО ОБРАЗОВАНИЯ" ' , src: 'https://www.youtube.com/embed/-iZQQxDHrmk'},
         ],
         id: 1006
     },
