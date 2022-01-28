@@ -1235,7 +1235,7 @@ body {
   line-height: 120% !important; }
 
 .description {
-  background-image: url(../images/description__bg.jpg);
+  background-image: url(../images/description__bg.png);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1920px;
@@ -1244,7 +1244,7 @@ body {
   @media screen and (max-width: 1600px) {
     .description {
       padding: 0 162px;
-      background-image: url(../images/description__mobile-1600.jpg);
+      background-image: url(../images/description__mobile-1600.png);
       background-size: cover; } }
   @media screen and (max-width: 1360px) {
     .description {

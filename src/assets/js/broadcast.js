@@ -1,10 +1,10 @@
 const boradcast = [
     {
-        src: 'https://www.youtube.com/embed/iElswNoogds',
+        src: 'https://www.youtube.com/embed/s9Np7gfYFUc',
         hrefText: 'Конгресс зал',
         arrayElem: [
-            {name: 'НАГРАЖДЕНИЕ ПОБЕДИТЕЛЕЙ ВСЕРОССИЙСКОГО КОНКУРСА «ЭКСПОРТЕР ГОДА»' , src: 'https://facecast.net/v/izirzp?key=&chat_token=MytiVmNFd2xNM3psWjZRYTdWL3krdUlucUVRcVRVSDE3WEdkaVRTV0ZUVT1TSWIzZGFUVE1EemVVQkUz' },
-            {name: 'ПЛЕНАРНАЯ СЕССИЯ «2030 – УЖЕ ЗАВТРА. ЧТО ДЕЛАТЬ?»' , src: 'https://www.youtube.com/embed/iElswNoogds' },
+            {name: 'НАГРАЖДЕНИЕ ПОБЕДИТЕЛЕЙ ВСЕРОССИЙСКОГО КОНКУРСА «ЭКСПОРТЕР ГОДА»' , src: 'https://www.youtube.com/embed/s9Np7gfYFUc' },
+            {name: 'ПЛЕНАРНАЯ СЕССИЯ «2030 – УЖЕ ЗАВТРА. ЧТО ДЕЛАТЬ?»' , src: 'https://www.youtube.com/embed/MLsE6zBHjI8' },
             {name: 'ЭКСПОРТНЫЙ ФОРУМ РСПП «СОЗДАВАЯ НОВУЮ РЕАЛЬНОСТЬ: НОВЫЕ РЫНКИ, ПАРТНЕРЫ И МЕХАНИЗМЫ ПОДДЕРЖКИ СО СТОРОНЫ ГОСУДАРСТВА И БИЗНЕСА»' , src: 'https://www.youtube.com/embed/jIbQmrSvPL8'},
             {name: 'ЧТО РОССИЯ ГОТОВА ПРЕДЛОЖИТЬ МИРУ В СФЕРЕ E-COMMERCE?' , src: 'https://www.youtube.com/embed/opwYLuEL6es' }
         ],
@@ -14,17 +14,17 @@ const boradcast = [
         src: 'https://www.youtube.com/embed/Pj8VysKj3co',
         hrefText: 'Пресс зал',
         arrayElem: [
-            {name: 'СЕССИЯ "ИНФРАСТРУКТУРНЫЕ ПРОЕКТЫ КАК ДРАЙВЕР РОСТА ВЫСОКОТЕХНОЛОГИЧНОГО ЭКСПОРТА"' , src: 'https://www.youtube.com/embed/Pj8VysKj3co'},
-            {name: 'СЕССИЯ "10ЛЕТ ФИНАНСИРОВАНИЯ ЭКСПОРТА: УРОКИ И ПЕРСПЕКТИВЫ"' , src: 'https://www.youtube.com/embed/5N-2Q7LXClQ' },
+            {name: 'СЕССИЯ «ИНФРАСТРУКТУРНЫЕ ПРОЕКТЫ КАК ДРАЙВЕР РОСТА ВЫСОКОТЕХНОЛОГИЧНОГО ЭКСПОРТА»' , src: 'https://www.youtube.com/embed/Pj8VysKj3co'},
+            {name: 'СЕССИЯ «10ЛЕТ ФИНАНСИРОВАНИЯ ЭКСПОРТА: УРОКИ И ПЕРСПЕКТИВЫ»' , src: 'https://www.youtube.com/embed/5N-2Q7LXClQ' },
         ],
         id: 1002
     },
     {
-        src: 'https://www.youtube.com/embed/XvrSt7LWNhE',
+        src: 'https://www.youtube.com/embed/QSZrvfkgnXQ',
         hrefText: 'Зал Валдай',
         arrayElem: [
-            {name: 'СТРАТЕГИЧЕСКАЯ СЕССИЯ «РАЗВИТИЕ ЭКСПОРТА - РАЗВИТИЕ ТЕРРИТОРИИ»' , src: 'https://www.youtube.com/embed/XvrSt7LWNhE' },
-            {name: 'СЕССИЯ "НОВЫЙ КЛИЕНТСКИЙ ПУТЬ ЭКСПОРТЕРА: ПЕРВЫЕ ШАГИ"' , src: 'https://www.youtube.com/embed/Vaaqtn1OI1o' },
+            {name: 'СТРАТЕГИЧЕСКАЯ СЕССИЯ «РАЗВИТИЕ ЭКСПОРТА - РАЗВИТИЕ ТЕРРИТОРИИ»' , src: 'https://www.youtube.com/embed/QSZrvfkgnXQ' },
+            {name: 'СЕССИЯ «НОВЫЙ КЛИЕНТСКИЙ ПУТЬ ЭКСПОРТЕРА: ПЕРВЫЕ ШАГИ»' , src: 'https://www.youtube.com/embed/Vaaqtn1OI1o' },
         ],
         id: 1003
     },
@@ -52,7 +52,7 @@ const boradcast = [
         hrefText: 'Зал Иртыш',
         arrayElem: [
             {name: 'МАСТЕР-КЛАСС-ТУРНИР ПО ПЕРЕГОВОРАМ ЭКСПОРТЕРОВ С ИМПОРТЕРАМИ (С ВУЗАМИ-ПАРТНЕРАМИ) ' , src: 'https://www.youtube.com/embed/zR2kG4Vh9AU'},
-            {name: 'СЕССИЯ "ЭКСПОРТ РОССИЙСКОГО ОБРАЗОВАНИЯ" ' , src: 'https://www.youtube.com/embed/-iZQQxDHrmk'},
+            {name: 'СЕССИЯ «ЭКСПОРТ РОССИЙСКОГО ОБРАЗОВАНИЯ» ' , src: 'https://www.youtube.com/embed/-iZQQxDHrmk'},
         ],
         id: 1006
     },
@@ -62,7 +62,7 @@ const boradcast = [
         arrayElem: [
             {name: 'ВЕБИНАР «РЕГУЛЯТОРНЫЕ АСПЕКТЫ ЭКСПОРТА ПО КАНАЛАМ ИНТЕРНЕТ-ТОРГОВЛИ»' , src: 'https://www.youtube.com/embed/SekLF1T4mEk'},
             {name: 'МАСТЕР-КЛАСС ПРОГРАММЫ МИНИ-MBA «ЭКСПОРТНЫЙ СТАНДАРТ ДЛЯ МСП»: MARKETING & SALES В ЭКСПОРТЕ' , src: 'https://www.youtube.com/embed/pxHYpcTODNc'},
-            {name: 'ВЕБИНАР "ЗАЧЕМ ПЕРЕВОДИТЬ ЭКСПОРТ В ЦИФРУ"' , src: 'https://www.youtube.com/embed/dwc37mM5sX0'},
+            {name: 'ВЕБИНАР «ЗАЧЕМ ПЕРЕВОДИТЬ ЭКСПОРТ В ЦИФРУ»' , src: 'https://www.youtube.com/embed/dwc37mM5sX0'},
         ],
         id: 1007
     },
